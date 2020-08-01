@@ -1,6 +1,6 @@
 @extends('web.layouts.app1')
 @section('title')
-Contact Us
+Contact Us Now
 @endsection
 @section('content')
     <!-- banner-w3layouts -->

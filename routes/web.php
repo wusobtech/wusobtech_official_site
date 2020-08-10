@@ -20,6 +20,6 @@ Route::get('/services', 'WebController@services')->name('services');
 Route::get('/blogs', 'WebController@blogs')->name('blogs');
 
 Auth::routes();
-
+Route::resource('posts', 'PostsController');
 Route::get('/home', 'HomeController@index')->name('home');
 

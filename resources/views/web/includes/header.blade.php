@@ -17,7 +17,7 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('services') }}">Services</a>
                             </li>
-                            <li class="nav-item">
+                            {{--  <li class="nav-item">
                                 <a class="nav-link" href="#">Tech-Job Connect</a>
                             </li>
                             <li class="nav-item">
@@ -25,13 +25,13 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Advertisements</a>
-                            </li>
+                            </li>  --}}
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('blogs') }}">Blog</a>
                             </li>
-                            <li class="nav-item">
+                            {{--  <li class="nav-item">
                                 <a class="nav-link" href="#">Our Archives</a>
-                            </li>
+                            </li>  --}}
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('contactUs') }}">Contact</a>
                             </li>

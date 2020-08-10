@@ -11,7 +11,7 @@ Blogs
                     <div class="row mt-lg-5 mt-3">
                         <div class="col-lg-8 blog-left-content">
                             <div class="card" data-aos="fade-up">
-                                <a href="single.html"> <img class="card-img-top" src="{{ asset('web/images/b1.jpg') }}" alt="Card image cap"></a>
+                                <a href="single.html"> <img class="card-img-top" src="{{ asset($web_source) }}/images/b1.jpg" alt="Card image cap"></a>
                                 <div class="card-body">
                                     <h6 class="date"><span>
                                     By: Admin</span> Sep 20.2018</h6>
@@ -25,7 +25,7 @@ Blogs
                             </div>
 
                             <div class="card my-lg-5" data-aos="fade-up">
-                                <a href="single.html">  <img class="card-img-top" src="{{ asset('web/images/b3.jpg') }}" alt="Card image cap"></a>
+                                <a href="single.html">  <img class="card-img-top" src="{{ asset($web_source) }}/images/b3.jpg" alt="Card image cap"></a>
                                 <div class="card-body">
                                     <h6 class="date"><span>
                                     By: Admin</span> Sep 30.2018</h6>
@@ -39,7 +39,7 @@ Blogs
                             </div>
 
                             <div class="card" data-aos="fade-up">
-                                <a href="single.html"> <img class="card-img-top" src="{{ asset('web/images/b2.jpg') }}" alt="Card image cap"></a>
+                                <a href="single.html"> <img class="card-img-top" src="{{ asset($web_source) }}/images/b2.jpg" alt="Card image cap"></a>
                                 <div class="card-body">
                                     <h6 class="date"><span>
                                     By: Admin</span> Oct 11.2018</h6>

@@ -20,16 +20,16 @@
     <!-- //Meta tag Keywords -->
 
     <!-- Custom-Files -->
-    <link rel="stylesheet" href="{{ asset('web/css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ asset($web_source) }}/css/bootstrap.css">
     <!-- Bootstrap-Core-CSS -->
-    <link rel="stylesheet" href="{{ asset('web/css/style.css') }}" type="text/css" media="all" />
-    <link rel="stylesheet" href="{{ asset('web/css/portfolio.css') }}">
-    <link rel="stylesheet" href="{{ asset('web/css/aos.css') }}">
-    <link href="{{ asset('web/css/aos-animation.css') }}" rel='stylesheet prefetch' type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset($web_source) }}/css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{ asset($web_source) }}/css/portfolio.css">
+    <link rel="stylesheet" href="{{ asset($web_source) }}/css/aos.css">
+    <link href="{{ asset($web_source) }}/css/aos-animation.css" rel='stylesheet prefetch' type="text/css" media="all" />
 
     <!-- Style-CSS -->
     <!-- font-awesome-icons -->
-    <link href="{{ asset('web/css/font-awesome.css') }}" rel="stylesheet">
+    <link href="{{ asset($web_source) }}/css/font-awesome.css" rel="stylesheet">
     <!-- //font-awesome-icons -->
     <!-- /Fonts -->
     <link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900" rel="stylesheet">
@@ -47,9 +47,9 @@
     @yield('content')
     @include('web.includes.footer')
     <!--//Register-->
-    <script src="{{ asset('web/js/jquery-2.2.3.min.js') }}"></script>
+    <script src="{{ asset($web_source) }}/js/jquery-2.2.3.min.js"></script>
     <!--/aos -->
-    <script src="{{ asset('web/js/aos.js') }}"></script>
+    <script src="{{ asset($web_source) }}/js/aos.js"></script>
     <script>
         AOS.init({
             easing: 'ease-out-back',
@@ -59,11 +59,11 @@
     </script>
     <!--//aos -->
     <!--/counter-->
-    <script src="{{ asset('web/js/counternew.js') }}"></script>
+    <script src="{{ asset($web_source) }}/js/counternew.js"></script>
     <!--//counter-->
     <!--/ start-smoth-scrolling -->
-    <script src="{{ asset('web/js/move-top.js') }}"></script>
-    <script src="{{ asset('web/js/easing.js') }}"></script>
+    <script src="{{ asset($web_source) }}/js/move-top.js"></script>
+    <script src="{{ asset($web_source) }}/js/easing.js"></script>
     <script>
         jQuery(document).ready(function($) {
             $(".scroll").click(function(event) {
@@ -97,6 +97,6 @@
 
     <!-- //js -->
 
-    <script src="{{ asset('web/js/bootstrap.js') }}"></script>
+    <script src="{{ asset($web_source) }}/js/bootstrap.js"></script>
 </body>
 </html>

@@ -52,7 +52,7 @@
             </div>
             <div class="footer-grid_section text-center">
                 <div class="footer-title-w3ls mb-3" data-aos="fade-up">
-                    <a href="index.html" class="text-uppercase"><img height="90px" width="90px" src="{{ asset($web_source) }}/images/wusob_logo.png" /> WUSOB</a>
+                    <a href="index.html" class="text-uppercase"><img height="90px" width="90px" src="{{ $web_source }}/images/wusob_logo.png" /> WUSOB</a>
                 </div>
                 <div class="footer-text">
                     <p data-aos="fade-up">Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ipnut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur elit.</p>

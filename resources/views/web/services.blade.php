@@ -74,7 +74,7 @@ Services
                             </div>
                         </div>
                         <div class="col-lg-6 p-0">
-                            <img src="{{ asset($web_source) }}/images/img1.jpg" class="img-fluid" alt="">
+                            <img src="{{ $web_source }}/images/img1.jpg" class="img-fluid" alt="">
                         </div>
                     </div>
                 </div>

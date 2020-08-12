@@ -51,7 +51,7 @@ Home
                             </div>
                         </div>
                         <div class="col-lg-6 p-0">
-                            <img src="{{ asset($web_source) }}/images/img1.jpg" class="img-fluid" alt="">
+                            <img src="{{ $web_source }}/images/img1.jpg" class="img-fluid" alt="">
                         </div>
                     </div>
                 </div>
@@ -100,7 +100,7 @@ Home
                 <div class="row mt-lg-5 mt-4">
                     <div class="col-md-4 team-gd text-center" data-aos="fade-right">
                         <div class="team-img mb-4">
-                            <img src="{{ asset($web_source) }}/images/team.jpg" class="img-fluid rounded-circle" alt="user-image">
+                            <img src="{{ $web_source }}/images/team.jpg" class="img-fluid rounded-circle" alt="user-image">
                         </div>
                         <div class="team-info">
                             <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">Designer</span> Jason Donoghue</h3>
@@ -114,7 +114,7 @@ Home
 
                     <div class="col-md-4 team-gd second text-center">
                         <div class="team-img mb-4">
-                            <img src="{{ asset($web_source) }}/images/team1.jpg" class="img-fluid rounded-circle" alt="user-image">
+                            <img src="{{ $web_source }}/images/team1.jpg" class="img-fluid rounded-circle" alt="user-image">
                         </div>
                         <div class="team-info">
                             <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">Designer</span> Mariana Noe</h3>
@@ -127,7 +127,7 @@ Home
                     </div>
                     <div class="col-md-4 team-gd text-center" data-aos="fade-left">
                         <div class="team-img mb-4">
-                            <img src="{{ asset($web_source) }}/images/team2.jpg" class="img-fluid rounded-circle" alt="user-image">
+                            <img src="{{ $web_source }}/images/team2.jpg" class="img-fluid rounded-circle" alt="user-image">
                         </div>
                         <div class="team-info">
                             <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">Designer</span> Daniel Doe</h3>
@@ -193,7 +193,7 @@ Home
                 </div>
                 <div class="modal-body">
                     <div class="login px-4 mx-auto mw-100 gal-img pb-3">
-                        <img class="img-fluid col-md-12" src="{{ asset($web_source) }}/images/n1.jpg" alt="Slog">
+                        <img class="img-fluid col-md-12" src="{{ $web_source }}/images/n1.jpg" alt="Slog">
                     </div>
                 </div>
 
@@ -210,7 +210,7 @@ Home
                 </div>
                 <div class="modal-body pb-3">
                     <div class="login px-4 mx-auto mw-100 gal-img pb-3">
-                        <img class="img-fluid col-md-12" src="{{ asset($web_source) }}/images/n2.jpg" alt="Slog">
+                        <img class="img-fluid col-md-12" src="{{ $web_source }}/images/n2.jpg" alt="Slog">
                     </div>
                 </div>
 
@@ -227,7 +227,7 @@ Home
                 </div>
                 <div class="modal-body pb-3">
                     <div class="login px-4 mx-auto mw-100 gal-img pb-3">
-                        <img class="img-fluid col-md-12" src="{{ asset($web_source) }}/images/n3.jpg" alt="Slog">
+                        <img class="img-fluid col-md-12" src="{{ $web_source }}/images/n3.jpg" alt="Slog">
                     </div>
                 </div>
 
@@ -244,7 +244,7 @@ Home
                 </div>
                 <div class="modal-body pb-3">
                     <div class="login px-4 mx-auto mw-100 gal-img pb-3">
-                        <img class="img-fluid col-md-12" src="{{ asset($web_source) }}/images/n4.jpg" alt="Slog">
+                        <img class="img-fluid col-md-12" src="{{ $web_source }}/images/n4.jpg" alt="Slog">
                     </div>
                 </div>
 
@@ -261,7 +261,7 @@ Home
                 </div>
                 <div class="modal-body pb-3">
                     <div class="login px-4 mx-auto mw-100 gal-img pb-3">
-                        <img class="img-fluid col-md-12" src="{{ asset($web_source) }}/images/n9.jpg" alt="Slog">
+                        <img class="img-fluid col-md-12" src="{{ $web_source }}/images/n9.jpg" alt="Slog">
                     </div>
                 </div>
 
@@ -278,7 +278,7 @@ Home
                 </div>
                 <div class="modal-body pb-3">
                     <div class="login px-4 mx-auto mw-100 gal-img pb-3">
-                        <img class="img-fluid col-md-12" src="{{ asset($web_source) }}/images/n5.jpg" alt="Slog">
+                        <img class="img-fluid col-md-12" src="{{ $web_source }}/images/n5.jpg" alt="Slog">
                     </div>
                 </div>
 
@@ -296,7 +296,7 @@ Home
                 </div>
                 <div class="modal-body pb-3">
                     <div class="login px-4 mx-auto mw-100 gal-img pb-3">
-                        <img class="img-fluid col-md-12" src="{{ asset($web_source) }}/images/n7.jpg" alt="Slog">
+                        <img class="img-fluid col-md-12" src="{{ $web_source }}/images/n7.jpg" alt="Slog">
                     </div>
                 </div>
 
@@ -313,7 +313,7 @@ Home
                 </div>
                 <div class="modal-body pb-3">
                     <div class="login px-4 mx-auto mw-100 gal-img pb-3">
-                        <img class="img-fluid col-md-12" src="{{ asset($web_source) }}/images/n8.jpg" alt="Slog">
+                        <img class="img-fluid col-md-12" src="{{ $web_source }}/images/n8.jpg" alt="Slog">
                     </div>
                 </div>
 
@@ -330,7 +330,7 @@ Home
                 </div>
                 <div class="modal-body pb-3">
                     <div class="login px-4 mx-auto mw-100 gal-img pb-3">
-                        <img class="img-fluid col-md-12" src="{{ asset($web_source) }}/images/n6.jpg" alt="Slog">
+                        <img class="img-fluid col-md-12" src="{{ $web_source }}/images/n6.jpg" alt="Slog">
                     </div>
                 </div>
 
@@ -347,10 +347,10 @@ Home
             <div class="row banner-w3layouts-grids">
                 <div class="col-lg-6 banner-w3layouts-image">
                     <div class="effect-w3">
-                        <img src="{{ asset($web_source) }}/images/img2.jpg" alt="" class="img-fluid image1">
-                        <img src="{{ asset($web_source) }}/images/img2.jpg" alt="" class="img-fluid image2">
-                        <img src="{{ asset($web_source) }}/images/img2.jpg" alt="" class="img-fluid image3">
-                        <img src="{{ asset($web_source) }}/images/img2.jpg" alt="" class="img-fluid image4">
+                        <img src="{{ $web_source }}/images/img2.jpg" alt="" class="img-fluid image1">
+                        <img src="{{ $web_source }}/images/img2.jpg" alt="" class="img-fluid image2">
+                        <img src="{{ $web_source }}/images/img2.jpg" alt="" class="img-fluid image3">
+                        <img src="{{ $web_source }}/images/img2.jpg" alt="" class="img-fluid image4">
                     </div>
 
                 </div>
@@ -385,7 +385,7 @@ Home
                                     </p>
                                     <div class="row mt-4">
                                         <div class="col-3 testi-img-res">
-                                            <img src="{{ asset($web_source) }}/images/te1.jpg" alt=" " class="img-fluid rounded-circle" />
+                                            <img src="{{ $web_source }}/images/te1.jpg" alt=" " class="img-fluid rounded-circle" />
                                         </div>
                                         <div class="col-9 testi_grid mt-xl-3 mt-lg-2 mt-md-4 mt-2">
                                             <h5 class="mb-2">Thomas Carl</h5>
@@ -400,7 +400,7 @@ Home
                                     </p>
                                     <div class="row mt-4">
                                         <div class="col-3 testi-img-res">
-                                            <img src="{{ asset($web_source) }}/images/te2.jpg" alt=" " class="img-fluid rounded-circle" />
+                                            <img src="{{ $web_source }}/images/te2.jpg" alt=" " class="img-fluid rounded-circle" />
                                         </div>
                                         <div class="col-9 testi_grid  mt-xl-3 mt-lg-2 mt-md-4 mt-2">
                                             <h5 class="mb-2">Adam Ster</h5>
@@ -419,7 +419,7 @@ Home
                                     </p>
                                     <div class="row mt-4">
                                         <div class="col-3 testi-img-res">
-                                            <img src="{{ asset($web_source) }}/images/te3.jpg" alt=" " class="img-fluid rounded-circle" />
+                                            <img src="{{ $web_source }}/images/te3.jpg" alt=" " class="img-fluid rounded-circle" />
                                         </div>
                                         <div class="col-9 testi_grid  mt-xl-3 mt-lg-2 mt-md-4 mt-2">
                                             <h5 class="mb-2">Thomas Carl</h5>
@@ -434,7 +434,7 @@ Home
                                     </p>
                                     <div class="row mt-4">
                                         <div class="col-3 testi-img-res">
-                                            <img src="{{ asset($web_source) }}/images/te1.jpg" alt=" " class="img-fluid rounded-circle" />
+                                            <img src="{{ $web_source }}/images/te1.jpg" alt=" " class="img-fluid rounded-circle" />
                                         </div>
                                         <div class="col-9 testi_grid  mt-xl-3 mt-lg-2 mt-md-4 mt-2">
                                             <h5 class="mb-2">Adam Ster</h5>
@@ -453,7 +453,7 @@ Home
                                     </p>
                                     <div class="row mt-4">
                                         <div class="col-3 testi-img-res">
-                                            <img src="{{ asset($web_source) }}/images/te2.jpg" alt=" " class="img-fluid rounded-circle" />
+                                            <img src="{{ $web_source }}/images/te2.jpg" alt=" " class="img-fluid rounded-circle" />
                                         </div>
                                         <div class="col-9 testi_grid  mt-xl-3 mt-lg-2 mt-md-4  mt-2">
                                             <h5 class="mb-2">Thomas Carl</h5>
@@ -468,7 +468,7 @@ Home
                                     </p>
                                     <div class="row mt-4">
                                         <div class="col-3 testi-img-res">
-                                            <img src="{{ asset($web_source) }}/images/te3.jpg" alt=" " class="img-fluid rounded-circle" />
+                                            <img src="{{ $web_source }}/images/te3.jpg" alt=" " class="img-fluid rounded-circle" />
                                         </div>
                                         <div class="col-9 testi_grid mt-xl-3 mt-lg-2 mt-md-4 mt-2">
                                             <h5 class="mb-2">Adam Ster</h5>

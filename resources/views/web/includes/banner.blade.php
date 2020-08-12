@@ -11,10 +11,10 @@
                     </div>
                     <div class="col-lg-6 banner-w3layouts-image">
                         <div class="effect-w3">
-                            <img src="{{ asset($web_source) }}/images/img.jpg" alt="" class="img-fluid image1">
-                            <img src="{{ asset($web_source) }}/images/img.jpg" alt="" class="img-fluid image2">
-                            <img src="{{ asset($web_source) }}/images/img.jpg" alt="" class="img-fluid image3">
-                            <img src="{{ asset($web_source) }}/images/img.jpg" alt="" class="img-fluid image4">
+                            <img src="{{ $web_source }}/images/img.jpg" alt="" class="img-fluid image1">
+                            <img src="{{ $web_source }}/images/img.jpg" alt="" class="img-fluid image2">
+                            <img src="{{ $web_source }}/images/img.jpg" alt="" class="img-fluid image3">
+                            <img src="{{ $web_source }}/images/img.jpg" alt="" class="img-fluid image4">
                         </div>
 
                     </div>

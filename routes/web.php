@@ -23,3 +23,4 @@ Auth::routes();
 Route::resource('posts', 'PostsController');
 Route::get('/home', 'HomeController@index')->name('home');
 
+

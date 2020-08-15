@@ -3,7 +3,7 @@
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <h1>
-                        <a class="navbar-brand" href="{{ url('/') }}"><img height="40px" width="40px" src="{{ asset('web/images/wusob_logo.png') }}" /></a>
+                        <a class="navbar-brand" href="{{ url('/') }}"><img height="40px" width="40px" src="{{ $web_source }}/images/wusob_logo.png" /></a>
                     </h1>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -17,7 +17,7 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('services') }}">Services</a>
                             </li>
-                            <li class="nav-item">
+                            {{--  <li class="nav-item">
                                 <a class="nav-link" href="#">Tech-Job Connect</a>
                             </li>
                             <li class="nav-item">
@@ -25,13 +25,13 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Advertisements</a>
-                            </li>
+                            </li>  --}}
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('blogs') }}">Blog</a>
                             </li>
-                            <li class="nav-item">
+                            {{--  <li class="nav-item">
                                 <a class="nav-link" href="#">Our Archives</a>
-                            </li>
+                            </li>  --}}
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('contactUs') }}">Contact</a>
                             </li>

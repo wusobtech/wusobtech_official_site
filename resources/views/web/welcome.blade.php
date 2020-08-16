@@ -6,7 +6,7 @@ Home
     <section class="about py-lg-5 py-md-5 py-3">
         <div class="container">
             <div class="inner-sec-wthree py-lg-5 py-3">
-                <h3 class="tittle text-uppercase text-center mb-lg-5 mb-3"><span class="sub-tittle">About.</span> Creativity has no Boundaries</h3>
+                <h3 class="tittle text-uppercase text-center mb-lg-5 mb-3"><span class="sub-tittle">About.</span> Providing Your Software Solutions</h3>
                 <div class="feature-grids row mb-lg-5 mb-3">
                     <div class="col-lg-4 p-0" data-aos="fade-up">
                         <div class="bottom-gd p-5">
@@ -100,11 +100,10 @@ Home
                 <div class="row mt-lg-5 mt-4">
                     <div class="col-md-4 team-gd text-center" data-aos="fade-right">
                         <div class="team-img mb-4">
-                            <img src="{{ $web_source }}/images/team.jpg" class="img-fluid rounded-circle" alt="user-image">
+                            <img src="{{ $web_source }}/images/wusa.jpg" class="img-fluid rounded-circle" alt="user-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">Designer</span> Jason Donoghue</h3>
-                            <p>Lorem Ipsum has been the industry's standard since the 1500s.</p>
+                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">Chairman/C.E.O</span> WUSA I. TADAGBE</h3>
                             <ul class="social_section_1info mt-md-4 mt-3">
                                 <li class="mb-2 facebook"><a href="#"><i class="fa fa-facebook mr-1"></i>facebook</a></li>
                                 <li class="mb-2 twitter"><a href="#"><i class="fa fa-twitter mr-1"></i>twitter</a></li>
@@ -114,11 +113,10 @@ Home
 
                     <div class="col-md-4 team-gd second text-center">
                         <div class="team-img mb-4">
-                            <img src="{{ $web_source }}/images/team1.jpg" class="img-fluid rounded-circle" alt="user-image">
+                            <img src="{{ $web_source }}/images/mishael.jpeg" class="img-fluid rounded-circle" alt="user-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">Designer</span> Mariana Noe</h3>
-                            <p>Lorem Ipsum has been the industry's standard since the 1500s.</p>
+                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">Chief Operation Officer</span> MISHAEL ABIOLA</h3>
                             <ul class="social_section_1info mt-md-4 mt-3">
                                 <li class="google"><a href="#"><i class="fa fa-google-plus mr-1"></i>google</a></li>
                                 <li class="linkedin"><a href="#"><i class="fa fa-linkedin mr-1"></i>linkedin</a></li>
@@ -127,11 +125,58 @@ Home
                     </div>
                     <div class="col-md-4 team-gd text-center" data-aos="fade-left">
                         <div class="team-img mb-4">
-                            <img src="{{ $web_source }}/images/team2.jpg" class="img-fluid rounded-circle" alt="user-image">
+                            <img src="{{ $web_source }}/images/muyiwa.jpg" class="img-fluid rounded-circle" alt="user-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">Designer</span> Daniel Doe</h3>
-                            <p>Lorem Ipsum has been the industry's standard since the 1500s.</p>
+                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">Chief Financial Officer</span> MUYIWA YOMBO</h3>
+                            <ul class="social_section_1info mt-md-4 mt-3">
+                                <li class="mb-2 facebook"><a href="#"><i class="fa fa-facebook mr-1"></i>facebook</a></li>
+                                <li class="mb-2 twitter"><a href="#"><i class="fa fa-twitter mr-1"></i>twitter</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 team-gd text-center" data-aos="fade-left">
+                        <div class="team-img mb-4">
+                            <img src="{{ $web_source }}/images/confidence1.jpeg" class="img-fluid rounded-circle" alt="user-image">
+                        </div>
+                        <div class="team-info">
+                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">Chief Technical Officer</span> CONFIDENCE UGOLO</h3>
+                            <ul class="social_section_1info mt-md-4 mt-3">
+                                <li class="mb-2 facebook"><a href="#"><i class="fa fa-facebook mr-1"></i>facebook</a></li>
+                                <li class="mb-2 twitter"><a href="#"><i class="fa fa-twitter mr-1"></i>twitter</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 team-gd text-center" data-aos="fade-left">
+                        <div class="team-img mb-4">
+                            <img src="{{ $web_source }}/images/tope.png" class="img-fluid rounded-circle" alt="user-image">
+                        </div>
+                        <div class="team-info">
+                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">BACKEND DIRECTOR</span> OLOTU TOPE</h3>
+                            <ul class="social_section_1info mt-md-4 mt-3">
+                                <li class="mb-2 facebook"><a href="#"><i class="fa fa-facebook mr-1"></i>facebook</a></li>
+                                <li class="mb-2 twitter"><a href="#"><i class="fa fa-twitter mr-1"></i>twitter</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 team-gd text-center" data-aos="fade-left">
+                        <div class="team-img mb-4">
+                            <img src="{{ $web_source }}/images/paul.jpg" class="img-fluid rounded-circle" alt="user-image">
+                        </div>
+                        <div class="team-info">
+                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">FRONTEND DIRECTOR</span> PAUL EMAS</h3>
+                            <ul class="social_section_1info mt-md-4 mt-3">
+                                <li class="mb-2 facebook"><a href="#"><i class="fa fa-facebook mr-1"></i>facebook</a></li>
+                                <li class="mb-2 twitter"><a href="#"><i class="fa fa-twitter mr-1"></i>twitter</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 team-gd text-center" data-aos="fade-left">
+                        <div class="team-img mb-4">
+                            <img src="{{ $web_source }}/images/daniel.png" class="img-fluid rounded-circle" alt="user-image">
+                        </div>
+                        <div class="team-info">
+                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">CONTENT MANAGEMENT DIRECTOR</span> DANIEL IKOKOH</h3>
                             <ul class="social_section_1info mt-md-4 mt-3">
                                 <li class="mb-2 facebook"><a href="#"><i class="fa fa-facebook mr-1"></i>facebook</a></li>
                                 <li class="mb-2 twitter"><a href="#"><i class="fa fa-twitter mr-1"></i>twitter</a></li>
@@ -155,24 +200,24 @@ Home
             <div class="left-build-main-temps">
                 <h3 class="tittle text-uppercase text-left my-lg-5 my-3"><span class="sub-tittle">WOrk Abilities</span> Our Skills</h3>
                 <div class="progress-one my-lg-5" data-aos="fade-up">
-                    <h4 class="progress-tittle">Web Design</h4>
+                    <h4 class="progress-tittle">Web Design & Development</h4>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                </div>
-                <div class="progress-one" data-aos="fade-up">
-                    <h4 class="progress-tittle">Branding</h4>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                 </div>
                 <div class="progress-one my-lg-5" data-aos="fade-up">
-                    <h4 class="progress-tittle">PHP Development</h4>
+                    <h4 class="progress-tittle">Cross Platform Mobile App-Development</h4>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                 </div>
-                <div class="progress-one" data-aos="fade-up">
+                <div class="progress-one my-lg-5" data-aos="fade-up">
+                    <h4 class="progress-tittle">Branding</h4>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="progress-one my-lg-5" data-aos="fade-up">
                     <h4 class="progress-tittle">Marketing</h4>
                     <div class="progress">
                         <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
@@ -342,7 +387,7 @@ Home
     <!--//portfolio-->
 
     <!-- /hand-crafted -->
-    <section class="hand-crafted py-4">
+    <section class="hand-crafted py-4 d-none">
         <div class="container py-xl-5 py-lg-3">
             <div class="row banner-w3layouts-grids">
                 <div class="col-lg-6 banner-w3layouts-image">
@@ -368,7 +413,7 @@ Home
 
     <!-- testimonials -->
     <div class="testimonials py-md-5 py-5">
-        <div class="container py-xl-5 py-lg-3">
+        <div class="container py-xl-5 py-lg-3 d-none">
             <h3 class="tittle text-uppercase text-center mb-lg-5 mb-3"><span class="sub-tittle">See what people are saying</span> Testimonials</h3>
             <div id="carouselExampleIndicators" class="carousel slide pb-5" data-ride="carousel">
                 <ol class="carousel-indicators">

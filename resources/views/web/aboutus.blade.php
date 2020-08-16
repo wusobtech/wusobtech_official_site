@@ -7,15 +7,24 @@ About Us
         <div class="container py-md-5 py-5">
             <div class="ab-info-grids pt-md-5 pt-3">
                 <div class="ab-info pt-md-5 pt-3 text-center">
-                    <h3 class="tittle text-uppercase inner-tittle" data-aos="fade-up">Let's Make Your
-                    </h3>
-                    <h4 class="mb-3" data-aos="fade-up">Design Great Again</h4>
+                    <h4 class="mb-3" data-aos="fade-up">Providing Your Software Solutions</h4>
                     <div class="row my-md-5">
-                        <p class="mb-4 col-md-6" data-aos="fade-up"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis.Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis.</p>
-                        <p class="mb-4 col-md-6" data-aos="fade-up"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis.Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis.</p>
+                        <p class="mb-4 col-md-12" data-aos="fade-up"> WUSOB TECHNOLOGIES LIMITED is an IT firm that specializes in the provision of high quality computer software and training services worldwide. Our vision is to provide high quality computer software that meets the needs and expectations of our clients, at a very affordable price.</p>
+                        <p class="mb-4 col-md-12" data-aos="fade-up"> Our Spftware are affordable, easy to use and we also ensure that after we develop any software, we give our clients special training so that they can easily and effectively use the software</p>
 
                     </div>
                     <img src="{{ $web_source }}/images/img3.jpg" class="img-fluid" alt="">
+                    <div class="row my-md-5">
+                        <p class="mb-4 col-md-12" data-aos="fade-up"> WUSOB TECHNOLOGIES is an ICT consulting and Software development
+                            company registered in Nigeria in and currently operating from the above address.We’re confident that our staff of
+                            experienced professionals can be a valuable to your needs of having your own custom made software solutions.
+                            You have absolute right over your codes 100%. Yes that we can assure you!</p>
+                        <p class="mb-4 col-md-12" data-aos="fade-up"> The information contained here Only provides you with a brief introduction
+                             to who we are, what we do, and how WUSOB TECHNOLOGIES products and
+                            services can be of value to your business and to you individually. For the accomplishment of this, we present an overview
+                            of our services, highlight our capabilities, and offer some brief examples of our experience.</p>
+
+                    </div>
                 </div>
             </div>
         </div>
@@ -59,11 +68,10 @@ About Us
                 <div class="row mt-lg-5 mt-4">
                     <div class="col-md-4 team-gd text-center" data-aos="fade-right">
                         <div class="team-img mb-4">
-                            <img src="{{ $web_source }}/images/team.jpg" class="img-fluid rounded-circle" alt="user-image">
+                            <img src="{{ $web_source }}/images/wusa.jpg" class="img-fluid rounded-circle" alt="user-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">Designer</span> Jason Donoghue</h3>
-                            <p>Lorem Ipsum has been the industry's standard since the 1500s.</p>
+                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">Chairman/C.E.O</span> WUSA I. TADAGBE</h3>
                             <ul class="social_section_1info mt-md-4 mt-3">
                                 <li class="mb-2 facebook"><a href="#"><i class="fa fa-facebook mr-1"></i>facebook</a></li>
                                 <li class="mb-2 twitter"><a href="#"><i class="fa fa-twitter mr-1"></i>twitter</a></li>
@@ -73,11 +81,10 @@ About Us
 
                     <div class="col-md-4 team-gd second text-center">
                         <div class="team-img mb-4">
-                            <img src="{{ $web_source }}/images/team1.jpg" class="img-fluid rounded-circle" alt="user-image">
+                            <img src="{{ $web_source }}/images/mishael.jpeg" class="img-fluid rounded-circle" alt="user-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">Designer</span> Mariana Noe</h3>
-                            <p>Lorem Ipsum has been the industry's standard since the 1500s.</p>
+                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">Chief Operation Officer</span> MISHAEL ABIOLA</h3>
                             <ul class="social_section_1info mt-md-4 mt-3">
                                 <li class="google"><a href="#"><i class="fa fa-google-plus mr-1"></i>google</a></li>
                                 <li class="linkedin"><a href="#"><i class="fa fa-linkedin mr-1"></i>linkedin</a></li>
@@ -86,11 +93,59 @@ About Us
                     </div>
                     <div class="col-md-4 team-gd text-center" data-aos="fade-left">
                         <div class="team-img mb-4">
-                            <img src="{{ $web_source }}/images/team2.jpg" class="img-fluid rounded-circle" alt="user-image">
+                            <img src="{{ $web_source }}/images/muyiwa.jpg" class="img-fluid rounded-circle" alt="user-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">Designer</span> Daniel Doe</h3>
-                            <p>Lorem Ipsum has been the industry's standard since the 1500s.</p>
+                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">Chief Financial Officer</span> MUYIWA YOMBO</h3>
+                            <ul class="social_section_1info mt-md-4 mt-3">
+                                <li class="mb-2 facebook"><a href="#"><i class="fa fa-facebook mr-1"></i>facebook</a></li>
+                                <li class="mb-2 twitter"><a href="#"><i class="fa fa-twitter mr-1"></i>twitter</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 team-gd text-center" data-aos="fade-left">
+                        <div class="team-img mb-4">
+                            <img src="{{ $web_source }}/images/confidence1.jpeg" class="img-fluid rounded-circle" alt="user-image">
+                        </div>
+                        <div class="team-info">
+                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">Chief Technical Officer</span> CONFIDENCE UGOLO</h3>
+                            <ul class="social_section_1info mt-md-4 mt-3">
+                                <li class="mb-2 facebook"><a href="#"><i class="fa fa-facebook mr-1"></i>facebook</a></li>
+                                <li class="mb-2 twitter"><a href="#"><i class="fa fa-twitter mr-1"></i>twitter</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 team-gd text-center" data-aos="fade-left">
+                        <div class="team-img mb-4">
+                            <img src="{{ $web_source }}/images/tope.png" class="img-fluid rounded-circle" alt="user-image">
+                        </div>
+                        <div class="team-info">
+                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">BACKEND DIRECTOR</span> OLOTU TOPE</h3>
+                            <ul class="social_section_1info mt-md-4 mt-3">
+                                <li class="mb-2 facebook"><a href="#"><i class="fa fa-facebook mr-1"></i>facebook</a></li>
+                                <li class="mb-2 twitter"><a href="#"><i class="fa fa-twitter mr-1"></i>twitter</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 team-gd text-center" data-aos="fade-left">
+                        <div class="team-img mb-4">
+                            <img src="{{ $web_source }}/images/paul.jpg" class="img-fluid rounded-circle" alt="user-image">
+                        </div>
+                        <div class="team-info">
+                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">FRONTEND DIRECTOR</span> PAUL EMAS</h3>
+                            <ul class="social_section_1info mt-md-4 mt-3">
+                                <li class="mb-2 facebook"><a href="#"><i class="fa fa-facebook mr-1"></i>facebook</a></li>
+                                <li class="mb-2 twitter"><a href="#"><i class="fa fa-twitter mr-1"></i>twitter</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 team-gd text-center" data-aos="fade-left">
+                        <div class="team-img mb-4">
+                            <img src="{{ $web_source }}/images/daniel.png" class="img-fluid rounded-circle" alt="user-image">
+
+                        </div>
+                        <div class="team-info">
+                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">CONTENT MANAGEMENT DIRECTOR</span> DANIEL IKOKOH</h3>
                             <ul class="social_section_1info mt-md-4 mt-3">
                                 <li class="mb-2 facebook"><a href="#"><i class="fa fa-facebook mr-1"></i>facebook</a></li>
                                 <li class="mb-2 twitter"><a href="#"><i class="fa fa-twitter mr-1"></i>twitter</a></li>
@@ -114,24 +169,24 @@ About Us
             <div class="left-build-main-temps">
                 <h3 class="tittle text-uppercase text-left my-lg-5 my-3"><span class="sub-tittle">WOrk Abilities</span> Our Skills</h3>
                 <div class="progress-one my-lg-5" data-aos="fade-up">
-                    <h4 class="progress-tittle">Web Design</h4>
+                    <h4 class="progress-tittle">Web Design & Development</h4>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                </div>
-                <div class="progress-one" data-aos="fade-up">
-                    <h4 class="progress-tittle">Branding</h4>
-                    <div class="progress">
-                        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                 </div>
                 <div class="progress-one my-lg-5" data-aos="fade-up">
-                    <h4 class="progress-tittle">PHP Development</h4>
+                    <h4 class="progress-tittle">Cross Platform Mobile App-Development</h4>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                 </div>
-                <div class="progress-one" data-aos="fade-up">
+                <div class="progress-one my-lg-5" data-aos="fade-up">
+                    <h4 class="progress-tittle">Branding</h4>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="progress-one my-lg-5" data-aos="fade-up">
                     <h4 class="progress-tittle">Marketing</h4>
                     <div class="progress">
                         <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
@@ -301,7 +356,7 @@ About Us
     <!--//portfolio-->
 
     <!-- /hand-crafted -->
-    <section class="hand-crafted py-4">
+    <section class="hand-crafted py-4 d-none">
         <div class="container py-xl-5 py-lg-3">
             <div class="row banner-w3layouts-grids">
                 <div class="col-lg-6 banner-w3layouts-image">
@@ -327,7 +382,7 @@ About Us
 
     <!-- testimonials -->
     <div class="testimonials py-md-5 py-5">
-        <div class="container py-xl-5 py-lg-3">
+        <div class="container py-xl-5 py-lg-3 d-none">
             <h3 class="tittle text-uppercase text-center mb-lg-5 mb-3"><span class="sub-tittle">See what people are saying</span> Testimonials</h3>
             <div id="carouselExampleIndicators" class="carousel slide pb-5" data-ride="carousel">
                 <ol class="carousel-indicators">

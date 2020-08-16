@@ -10,22 +10,22 @@ Services
                 <div class="feature-grids row mb-lg-3 mb-3">
                     <div class="col-lg-4 p-0" data-aos="zoom-in">
                         <div class="bottom-gd p-5">
-                            <h3 class="my-3"> <span class="fa fa-crosshairs" aria-hidden="true"></span> Web Interactive</h3>
-                            <p>Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis.</p>
+                            <h3 class="my-3"> <span class="fa fa-crosshairs" aria-hidden="true"></span> WEB APPLICATION</h3>
+                            <p>Web Design, Web development, Web Application, Portal and Customized solutions, If it's going to run on the web, Our team will bring it to life.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 p-0" data-aos="zoom-in">
                         <div class="bottom-gd2-active p-5">
 
-                            <h3 class="my-3"> <span class="fa fa-clone" aria-hidden="true"></span> Unique design</h3>
-                            <p>Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis.</p>
+                            <h3 class="my-3"> <span class="fa fa-clone" aria-hidden="true"></span> ENTERPRISE SOLUTIONS</h3>
+                            <p>Banks, Schools, Financial Institutes, Payment Gateways, NGO, Large Firms, Medium and Small Business and more, just name  it, We deliever it all at very affordable price.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 p-0" data-aos="zoom-in">
                         <div class="bottom-gd p-5">
 
-                            <h3 class="my-3"> <span class="fa fa-laptop" aria-hidden="true"></span> Supporting</h3>
-                            <p>Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis.</p>
+                            <h3 class="my-3"> <span class="fa fa-android" aria-hidden="true"></span> MOBILE APPLICATION</h3>
+                            <p>Apple iOS, Android, Mobile Applications and Software that are build to scale and perform better on low specification devices.</p>
                         </div>
                     </div>
 
@@ -34,22 +34,24 @@ Services
                     <div class="col-lg-4 p-0" data-aos="zoom-in">
                         <div class="bottom-gd p-5">
 
-                            <h3 class="my-3"> <span class="fa fa-line-chart" aria-hidden="true"></span> Drip marketing</h3>
-                            <p>Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis.</p>
+                            <h3 class="my-3"> <span class="fa fa-line-chart" aria-hidden="true"></span>
+                                WORLD-CLASS SOLUTIONS
+                                </h3>
+                            <p>Fast, Scalable, Safe and Secure architecture, Our Software development team are the best.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 p-0" data-aos="zoom-in">
                         <div class="bottom-gd2-active p-5">
 
-                            <h3 class="my-3"> <span class="fa fa-comments-o" aria-hidden="true"></span> Communication.</h3>
-                            <p>Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis.</p>
+                            <h3 class="my-3"> <span class="fa fa-comments-o" aria-hidden="true"></span> TECHNICAL SUPPORT.</h3>
+                            <p>Whatever your project, we support your project whenever you contact us base on the agreement mode. Support or Maintenance, it is our happiness to always  help.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 p-0" data-aos="zoom-in">
                         <div class="bottom-gd p-5">
 
-                            <h3 class="my-3"> <span class="fa fa-thumbs-o-up" aria-hidden="true"></span> Design Quality</h3>
-                            <p>Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis.</p>
+                            <h3 class="my-3"> <span class="fa fa-thumbs-o-up" aria-hidden="true"></span> USER EXPERIENCE AND FRIENDLINESS</h3>
+                            <p>Softwares with capacity to appeal to it users and make it easy for users to navigate.</p>
                         </div>
                     </div>
 

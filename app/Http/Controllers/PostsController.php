@@ -8,13 +8,13 @@ use App\Post;
 class PostsController extends Controller
 {
 
-   
+
     public function __construct()
     {
        $this->middleware('role:super');
         //Do your magic here
     }
-    
+
     /**
      * Display a listing of the resource.
      *
@@ -46,10 +46,10 @@ class PostsController extends Controller
      */
     public function store(CreatePostRequest $request)
     {
-        
+
         //create new post model instance
         $posts = new Post;
-        //store the image 
+        //store the image
         $post_image = $request->image;
         $post_image_new_name = time() . $post_image->getClientOriginalName();
         $post_image->move('uploads/posts', $post_image_new_name);
@@ -62,7 +62,7 @@ class PostsController extends Controller
         $posts->save();
         //then redirect to the index page with toast message
          return redirect('posts')->with('toast_success');
-        
+
     }
 
     /**
@@ -132,14 +132,14 @@ class PostsController extends Controller
     {
         //
         $post = Post::findOrFail($id);
-        
+
         if(file_exists($post->image))
         {
             unlink($post->image);
         }
 
         $post->delete();
-
+            
         // Session::flash('success', 'Postt deleted.');
 
         return redirect()->back();

@@ -10,7 +10,7 @@
                     <div class="footer-text">
                         <p>Address : Suite 4, Jabita Complex, Owode bus-stop Ajah, Lekki, Lagos Nigeria</p>
                         <p>Phone : +234 8112716233</p>
-                        <p>Email : <a href="mailto:info@wusobtech.com">info@wusobtech.com</a></p>
+                        <p>Email : <a href="mailto:contact@wusobtech.com">contact@wusobtech.com</a></p>
                         <p>Mobile : +234 7059421153</p>
                     </div>
                 </div>
@@ -52,7 +52,7 @@
             </div>
             <div class="footer-grid_section text-center">
                 <div class="footer-title-w3ls mb-3" data-aos="fade-up">
-                    <a href="index.html" class="text-uppercase"><img height="90px" width="90px" src="{{ asset($web_source) }}/images/wusob_logo.png" /> WUSOB</a>
+                    <a href="index.html" class="text-uppercase"><img height="90px" width="90px" src="{{ $web_source }}/images/wusob_logo.png" /> WUSOB</a>
                 </div>
                 <div class="footer-text">
                     <p data-aos="fade-up">Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ipnut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur elit.</p>

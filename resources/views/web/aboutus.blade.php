@@ -142,6 +142,7 @@ About Us
                     <div class="col-md-4 team-gd text-center" data-aos="fade-left">
                         <div class="team-img mb-4">
                             <img src="{{ $web_source }}/images/daniel.png" class="img-fluid rounded-circle" alt="user-image">
+
                         </div>
                         <div class="team-info">
                             <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">CONTENT MANAGEMENT DIRECTOR</span> DANIEL IKOKOH</h3>

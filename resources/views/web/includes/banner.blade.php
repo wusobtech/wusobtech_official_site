@@ -6,8 +6,10 @@
                         <h2 data-aos="fade-up">Let's Make Your
                         </h2>
                         <h3 class="mb-3" data-aos="fade-up">Design Great Again</h3>
-                        <p class="mb-4" data-aos="fade-up"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis.</p>
-                        <a href="single.html" class="btn">Read More</a>
+                        <p class="mb-4" data-aos="fade-up"> WUSOB TECHNOLOGIES is a full custom services firm.
+                            In achieving that, it’s our business to quickly adapt to meet our clients’ diverse needs… and we have a proven track record of doing just that.
+                         </p>
+                        <a href="single.html" class="btn d-none">Read More</a>
                     </div>
                     <div class="col-lg-6 banner-w3layouts-image">
                         <div class="effect-w3">

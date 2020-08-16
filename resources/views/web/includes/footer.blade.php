@@ -55,13 +55,15 @@
                     <a href="index.html" class="text-uppercase"><img height="90px" width="90px" src="{{ $web_source }}/images/wusob_logo.png" /> WUSOB</a>
                 </div>
                 <div class="footer-text">
-                    <p data-aos="fade-up">Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ipnut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur elit.</p>
+                    <p data-aos="fade-up">WUSOB TECHNOLOGIES is an IT firm that specializes in the provision
+                         of high quality computer software and training services worldwide. Our vision is to
+                          provide high quality computer software that meets the needs and expectations of our clients, at a very affordable price.
+                    </p>
                 </div>
                 <ul class="social_section_1info" data-aos="fade-up">
-                    <li class="mb-2 facebook"><a href="#"><i class="fa fa-facebook mr-1"></i>facebook</a></li>
-                    <li class="mb-2 twitter"><a href="#"><i class="fa fa-twitter mr-1"></i>twitter</a></li>
-                    <li class="google"><a href="#"><i class="fa fa-google-plus mr-1"></i>google</a></li>
-                    <li class="linkedin"><a href="#"><i class="fa fa-linkedin mr-1"></i>linkedin</a></li>
+                    <li class="mb-2 facebook"><a href="https://facebook.com/wusobtechnologies/" target="_blank"><i class="fa fa-facebook mr-1"></i>facebook</a></li>
+                    <li class="mb-2 twitter"><a href="https://twitter.com/wusobtech" target="_blank"><i class="fa fa-twitter mr-1" target="_blank"></i>twitter</a></li>
+                    <li class="mb-2 instagram"><a href="https://instagram.com/wusobtechnologies/" target="_blank"><i class="fa fa-instagram mr-1"></i>instagram</a></li>
                 </ul>
             </div>
 

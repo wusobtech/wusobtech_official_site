@@ -174,7 +174,7 @@ About Us
                     </div>
                 </div>
                 <div class="progress-one my-lg-5" data-aos="fade-up">
-                    <h4 class="progress-tittle">CrossPlatform Mobile App-Development</h4>
+                    <h4 class="progress-tittle">Cross Platform Mobile App-Development</h4>
                     <div class="progress">
                         <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>

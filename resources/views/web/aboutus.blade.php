@@ -10,13 +10,13 @@ About Us
                     <h4 class="mb-3" data-aos="fade-up">Providing Your Software Solutions</h4>
                     <div class="row my-md-5">
                         <p class="mb-4 col-md-12" data-aos="fade-up"> WUSOB TECHNOLOGIES LIMITED is an IT firm that specializes in the provision of high quality computer software and training services worldwide. Our vision is to provide high quality computer software that meets the needs and expectations of our clients, at a very affordable price.</p>
-                        <p class="mb-4 col-md-12" data-aos="fade-up"> Our Spftware are affordable, easy to use and we also ensure that after we develop any software, we give our clients special training so that they can easily and effectively use the software</p>
+                        <p class="mb-4 col-md-12" data-aos="fade-up"> Our Software are affordable, easy to use and we also ensure that after we develop any software, we give our clients special training so that they can easily and effectively use the software</p>
 
                     </div>
                     <img src="{{ $web_source }}/images/img3.jpg" class="img-fluid" alt="">
                     <div class="row my-md-5">
                         <p class="mb-4 col-md-12" data-aos="fade-up"> WUSOB TECHNOLOGIES is an ICT consulting and Software development
-                            company registered in Nigeria in and currently operating from the above address.We’re confident that our staff of
+                            company registered in Nigeria and currently operating from the above address. We’re confident that our staff of
                             experienced professionals can be a valuable to your needs of having your own custom made software solutions.
                             You have absolute right over your codes 100%. Yes that we can assure you!</p>
                         <p class="mb-4 col-md-12" data-aos="fade-up"> The information contained here Only provides you with a brief introduction
@@ -71,7 +71,7 @@ About Us
                             <img src="{{ $web_source }}/images/wusa.jpg" class="img-fluid rounded-circle" alt="user-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">Chairman/C.E.O</span> WUSA I. TADAGBE</h3>
+                            <h3 class="mt-md-4 mt-3">WUSA I. TADAGBE<span class="sub-tittle-team">Chairman/C.E.O</span> </h3>
                             <ul class="social_section_1info mt-md-4 mt-3">
                                 <li class="mb-2 facebook"><a href="#"><i class="fa fa-facebook mr-1"></i>facebook</a></li>
                                 <li class="mb-2 twitter"><a href="#"><i class="fa fa-twitter mr-1"></i>twitter</a></li>
@@ -84,7 +84,7 @@ About Us
                             <img src="{{ $web_source }}/images/mishael.jpeg" class="img-fluid rounded-circle" alt="user-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">Chief Operation Officer</span> MISHAEL ABIOLA</h3>
+                            <h3 class="mt-md-4 mt-3"> MISHAEL ABIOLA <span class="sub-tittle-team">Chief Operation Officer</span></h3>
                             <ul class="social_section_1info mt-md-4 mt-3">
                                 <li class="google"><a href="#"><i class="fa fa-google-plus mr-1"></i>google</a></li>
                                 <li class="linkedin"><a href="#"><i class="fa fa-linkedin mr-1"></i>linkedin</a></li>
@@ -96,7 +96,7 @@ About Us
                             <img src="{{ $web_source }}/images/muyiwa.jpg" class="img-fluid rounded-circle" alt="user-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">Chief Financial Officer</span> MUYIWA YOMBO</h3>
+                            <h3 class="mt-md-4 mt-3"> MUYIWA YOMBO <span class="sub-tittle-team">Chief Financial Officer</span></h3>
                             <ul class="social_section_1info mt-md-4 mt-3">
                                 <li class="mb-2 facebook"><a href="#"><i class="fa fa-facebook mr-1"></i>facebook</a></li>
                                 <li class="mb-2 twitter"><a href="#"><i class="fa fa-twitter mr-1"></i>twitter</a></li>
@@ -108,7 +108,7 @@ About Us
                             <img src="{{ $web_source }}/images/confidence1.jpeg" class="img-fluid rounded-circle" alt="user-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">Chief Technical Officer</span> CONFIDENCE UGOLO</h3>
+                            <h3 class="mt-md-4 mt-3">CONFIDENCE UGOLO<span class="sub-tittle-team">Chief Technical Officer</span> </h3>
                             <ul class="social_section_1info mt-md-4 mt-3">
                                 <li class="mb-2 facebook"><a href="#"><i class="fa fa-facebook mr-1"></i>facebook</a></li>
                                 <li class="mb-2 twitter"><a href="#"><i class="fa fa-twitter mr-1"></i>twitter</a></li>
@@ -120,7 +120,7 @@ About Us
                             <img src="{{ $web_source }}/images/tope.png" class="img-fluid rounded-circle" alt="user-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">BACKEND DIRECTOR</span> OLOTU TOPE</h3>
+                            <h3 class="mt-md-4 mt-3">OLOTU TOPE<span class="sub-tittle-team">BACKEND DIRECTOR</span> </h3>
                             <ul class="social_section_1info mt-md-4 mt-3">
                                 <li class="mb-2 facebook"><a href="#"><i class="fa fa-facebook mr-1"></i>facebook</a></li>
                                 <li class="mb-2 twitter"><a href="#"><i class="fa fa-twitter mr-1"></i>twitter</a></li>
@@ -132,7 +132,7 @@ About Us
                             <img src="{{ $web_source }}/images/paul.jpg" class="img-fluid rounded-circle" alt="user-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">FRONTEND DIRECTOR</span> PAUL EMAS</h3>
+                            <h3 class="mt-md-4 mt-3">PAUL EMAS<span class="sub-tittle-team">FRONTEND DIRECTOR</span> </h3>
                             <ul class="social_section_1info mt-md-4 mt-3">
                                 <li class="mb-2 facebook"><a href="#"><i class="fa fa-facebook mr-1"></i>facebook</a></li>
                                 <li class="mb-2 twitter"><a href="#"><i class="fa fa-twitter mr-1"></i>twitter</a></li>
@@ -144,7 +144,7 @@ About Us
                             <img src="{{ $web_source }}/images/daniel.png" class="img-fluid rounded-circle" alt="user-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">CONTENT MANAGEMENT DIRECTOR</span> DANIEL IKOKOH</h3>
+                            <h3 class="mt-md-4 mt-3"> DANIEL IKOKOH<span class="sub-tittle-team">CONTENT MANAGEMENT DIRECTOR</span></h3>
                             <ul class="social_section_1info mt-md-4 mt-3">
                                 <li class="mb-2 facebook"><a href="#"><i class="fa fa-facebook mr-1"></i>facebook</a></li>
                                 <li class="mb-2 twitter"><a href="#"><i class="fa fa-twitter mr-1"></i>twitter</a></li>
@@ -498,14 +498,4 @@ About Us
     </div>
     <!-- //testimonials -->
     <!--/newsletter -->
-    <section class="subscribe-main py-lg-5 py-4">
-        <div class="container">
-            <div class="newsletter-info text-center p-md-5 py-md-0 py-5 px-md-0 px-4">
-                <form action="#" method="post" class="d-flex">
-                    <input type="email" name="email" placeholder="Enter your Email..." required="">
-                    <input type="submit" value="Submit">
-                </form>
-            </div>
-        </div>
-    </section>
 @endsection

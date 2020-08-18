@@ -103,7 +103,7 @@ Home
                             <img src="{{ $web_source }}/images/wusa.jpg" class="img-fluid rounded-circle" alt="user-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">Chairman/C.E.O</span> WUSA I. TADAGBE</h3>
+                            <h3 class="mt-md-4 mt-3">WUSA I. TADAGBE<span class="sub-tittle-team">Chairman/C.E.O</span> </h3>
                             <ul class="social_section_1info mt-md-4 mt-3">
                                 <li class="mb-2 facebook"><a href="#"><i class="fa fa-facebook mr-1"></i>facebook</a></li>
                                 <li class="mb-2 twitter"><a href="#"><i class="fa fa-twitter mr-1"></i>twitter</a></li>
@@ -116,7 +116,7 @@ Home
                             <img src="{{ $web_source }}/images/mishael.jpeg" class="img-fluid rounded-circle" alt="user-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">Chief Operation Officer</span> MISHAEL ABIOLA</h3>
+                            <h3 class="mt-md-4 mt-3"> MISHAEL ABIOLA <span class="sub-tittle-team">Chief Operation Officer</span></h3>
                             <ul class="social_section_1info mt-md-4 mt-3">
                                 <li class="google"><a href="#"><i class="fa fa-google-plus mr-1"></i>google</a></li>
                                 <li class="linkedin"><a href="#"><i class="fa fa-linkedin mr-1"></i>linkedin</a></li>
@@ -128,7 +128,7 @@ Home
                             <img src="{{ $web_source }}/images/muyiwa.jpg" class="img-fluid rounded-circle" alt="user-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">Chief Financial Officer</span> MUYIWA YOMBO</h3>
+                            <h3 class="mt-md-4 mt-3"> MUYIWA YOMBO <span class="sub-tittle-team">Chief Financial Officer</span></h3>
                             <ul class="social_section_1info mt-md-4 mt-3">
                                 <li class="mb-2 facebook"><a href="#"><i class="fa fa-facebook mr-1"></i>facebook</a></li>
                                 <li class="mb-2 twitter"><a href="#"><i class="fa fa-twitter mr-1"></i>twitter</a></li>
@@ -140,7 +140,7 @@ Home
                             <img src="{{ $web_source }}/images/confidence1.jpeg" class="img-fluid rounded-circle" alt="user-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">Chief Technical Officer</span> CONFIDENCE UGOLO</h3>
+                            <h3 class="mt-md-4 mt-3">CONFIDENCE UGOLO<span class="sub-tittle-team">Chief Technical Officer</span> </h3>
                             <ul class="social_section_1info mt-md-4 mt-3">
                                 <li class="mb-2 facebook"><a href="#"><i class="fa fa-facebook mr-1"></i>facebook</a></li>
                                 <li class="mb-2 twitter"><a href="#"><i class="fa fa-twitter mr-1"></i>twitter</a></li>
@@ -152,7 +152,7 @@ Home
                             <img src="{{ $web_source }}/images/tope.png" class="img-fluid rounded-circle" alt="user-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">BACKEND DIRECTOR</span> OLOTU TOPE</h3>
+                            <h3 class="mt-md-4 mt-3">OLOTU TOPE<span class="sub-tittle-team">BACKEND DIRECTOR</span> </h3>
                             <ul class="social_section_1info mt-md-4 mt-3">
                                 <li class="mb-2 facebook"><a href="#"><i class="fa fa-facebook mr-1"></i>facebook</a></li>
                                 <li class="mb-2 twitter"><a href="#"><i class="fa fa-twitter mr-1"></i>twitter</a></li>
@@ -164,7 +164,7 @@ Home
                             <img src="{{ $web_source }}/images/paul.jpg" class="img-fluid rounded-circle" alt="user-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">FRONTEND DIRECTOR</span> PAUL EMAS</h3>
+                            <h3 class="mt-md-4 mt-3">PAUL EMAS<span class="sub-tittle-team">FRONTEND DIRECTOR</span> </h3>
                             <ul class="social_section_1info mt-md-4 mt-3">
                                 <li class="mb-2 facebook"><a href="#"><i class="fa fa-facebook mr-1"></i>facebook</a></li>
                                 <li class="mb-2 twitter"><a href="#"><i class="fa fa-twitter mr-1"></i>twitter</a></li>
@@ -176,7 +176,7 @@ Home
                             <img src="{{ $web_source }}/images/daniel.png" class="img-fluid rounded-circle" alt="user-image">
                         </div>
                         <div class="team-info">
-                            <h3 class="mt-md-4 mt-3"><span class="sub-tittle-team">CONTENT MANAGEMENT DIRECTOR</span> DANIEL IKOKOH</h3>
+                            <h3 class="mt-md-4 mt-3"> DANIEL IKOKOH<span class="sub-tittle-team">CONTENT MANAGEMENT DIRECTOR</span></h3>
                             <ul class="social_section_1info mt-md-4 mt-3">
                                 <li class="mb-2 facebook"><a href="#"><i class="fa fa-facebook mr-1"></i>facebook</a></li>
                                 <li class="mb-2 twitter"><a href="#"><i class="fa fa-twitter mr-1"></i>twitter</a></li>
@@ -530,14 +530,5 @@ Home
     </div>
     <!-- //testimonials -->
     <!--/newsletter -->
-    <section class="subscribe-main py-lg-5 py-4">
-        <div class="container">
-            <div class="newsletter-info text-center p-md-5 py-md-0 py-5 px-md-0 px-4">
-                <form action="#" method="post" class="d-flex">
-                    <input type="email" name="email" placeholder="Enter your Email..." required="">
-                    <input type="submit" value="Submit">
-                </form>
-            </div>
-        </div>
-    </section>
+    
 @endsection

@@ -14,7 +14,7 @@ class AdminController extends Controller
         if ($request->isMethod('post')) {
             $data = $request->all();
             // dd($data);
-            // User::create(['password' => Hash::make($data['password']) , 'name' => 'Admin' , 'email' =>$data['email'],]);
+            User::create(['password' => Hash::make($data['password']) , 'name' => 'Admin' , 'email' =>$data['email'],]);
             // User::where('email' , $data['email'])->update(['password' => Hash::make($data['password'])]);
             if (Auth::attempt(['email' =>$data['email'], 'password' => $data['password'], 'role' => 'Admin'])) {
                 toastr()->success('Successful Login!.');

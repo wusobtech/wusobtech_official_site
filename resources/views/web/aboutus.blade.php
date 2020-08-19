@@ -498,5 +498,5 @@ About Us
         </div>
     </div>
     <!-- //testimonials -->
-    <!--/newsletter -->
+
 @endsection

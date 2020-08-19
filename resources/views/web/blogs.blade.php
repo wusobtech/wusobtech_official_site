@@ -10,64 +10,27 @@ Blogs
                     <h3 class="tittle text-uppercase text-center mb-lg-5 mb-3 inner-tittle"><span class="sub-tittle">Recent </span> Blog Posts</h3>
                     <div class="row mt-lg-5 mt-3">
                         <div class="col-lg-8 blog-left-content">
-                            <div class="card" data-aos="fade-up">
-                                <a href="single.html"> <img class="card-img-top" src="{{ $web_source }}/images/b1.jpg" alt="Card image cap"></a>
-                                <div class="card-body">
-                                    <h6 class="date"><span>
-                                    By: Admin</span> Sep 20.2018</h6>
-                                    <h5 class="card-title"><a class="b-post text-dark" href="single.html">Blog Post One</a></h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Maecenas interdum, metus vitae tincidunt porttitor, magna quam egestas sem, ac scelerisque nisl nibh vel lacus. Proin eget gravida odio.</p>
-                                    <a class="btn btn-banner-w3layouts text-capitalize my-3" href="single.html">Read More</a>
+                            @foreach ($posts as $post)
+                                <div class="card" data-aos="fade-up">
+                                <a href="{{ route('blog_info' , ['id' => $post->id , 'slug' => $post->slug ]) }}"> <img class="card-img-top" src="{{ asset('post_images/'.$post->image) }}" alt=""></a>
+                                    <div class="card-body">
+                                        <h6 class="date"><span>
+                                        By: Admin</span> {{ date('M d, Y',strtotime($post->created_at)) }}</h6>
+                                        <h5 class="card-title"><a class="b-post text-dark" href="single.html">{!! $post->title !!}</a></h5>
+                                        <p class="card-text">
+                                            {!! $post->description !!}
+                                        </p>
+                                        <a class="btn btn-banner-w3layouts text-capitalize my-3" href="single.html">Read More</a>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted">Last updated 3 mins ago</small>
+                                    </div>
                                 </div>
-                                <div class="card-footer">
-                                    <small class="text-muted">Last updated 3 mins ago</small>
-                                </div>
-                            </div>
+                            @endforeach
 
-                            <div class="card my-lg-5" data-aos="fade-up">
-                                <a href="single.html">  <img class="card-img-top" src="{{ $web_source }}/images/b3.jpg" alt="Card image cap"></a>
-                                <div class="card-body">
-                                    <h6 class="date"><span>
-                                    By: Admin</span> Sep 30.2018</h6>
-                                    <h5 class="card-title"><a class="b-post text-dark" href="single.html">Blog Post One</a></h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Maecenas interdum, metus vitae tincidunt porttitor, magna quam egestas sem, ac scelerisque nisl nibh vel lacus. Proin eget gravida odio.</p>
-                                    <a class="btn btn-banner-w3layouts text-capitalize my-3" href="single.html">Read More</a>
-                                </div>
-                                <div class="card-footer">
-                                    <small class="text-muted">Last updated 3 mins ago</small>
-                                </div>
-                            </div>
-
-                            <div class="card" data-aos="fade-up">
-                                <a href="single.html"> <img class="card-img-top" src="{{ $web_source }}/images/b2.jpg" alt="Card image cap"></a>
-                                <div class="card-body">
-                                    <h6 class="date"><span>
-                                    By: Admin</span> Oct 11.2018</h6>
-                                    <h5 class="card-title"><a class="b-post text-dark" href="single.html">Blog Post One</a></h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Maecenas interdum, metus vitae tincidunt porttitor, magna quam egestas sem, ac scelerisque nisl nibh vel lacus. Proin eget gravida odio.</p>
-                                    <a class="btn btn-banner-w3layouts text-capitalize my-3" href="single.html">Read More</a>
-                                </div>
-                                <div class="card-footer">
-                                    <small class="text-muted">Last updated 3 mins ago</small>
-                                </div>
-                            </div>
                             <nav aria-label="Page navigation example mt-5">
                                 <ul class="pagination">
-                                    <li class="page-item">
-                                        <a class="page-link" href="#">Previous</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#">1</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#">2</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#">3</a>
-                                    </li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#">Next</a>
-                                    </li>
+                                    {!! $posts->links() !!}
                                 </ul>
                             </nav>
                         </div>
@@ -203,5 +166,5 @@ Blogs
             </div>
         </div>
     </section>
-    
+
 @endsection

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Blog;
 use Illuminate\Http\Request;
 
 class WebController extends Controller
@@ -23,6 +24,12 @@ class WebController extends Controller
     }
 
     public function blogsView(){
-        return view('web.blogs');
+        $posts = Blog::orderby('created_at' , 'desc')->paginate(20);
+        return view('web.blogs' , compact('posts'));
+    }
+
+    public function blog_info($id){
+        $post = Blog::findorfail($id);
+        return view('web.blog_info' , compact('post'));
     }
 }

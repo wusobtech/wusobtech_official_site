@@ -28,8 +28,8 @@ class AppServiceProvider extends ServiceProvider
         view()->composer('*',function($view){
             $view->with([
 
-                'web_source' => url('/').env('ASSET_URL').'/web',
-                'admin_source' => url('/').env('ASSET_URL').'/dashboard',
+                'web_source' => url('/').'/'.env('ASSET_URL').'/web',
+                'admin_source' => url('/').'/'.env('ASSET_URL').'/dashboard',
             ]);
         });
     }

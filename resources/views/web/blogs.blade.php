@@ -73,7 +73,7 @@ Blogs
                         </div>
                         <aside class="col-lg-4 blog-sldebar-right">
                             <div class="single-gd">
-                                <img src="images/banner-w3layouts1.jpg" class="img-fluid" alt="">
+                                <img src="{{ $web_source }}/images/banner-w3layouts1.jpg" class="img-fluid" alt="">
                                 <h4>Sign up to our newsletter</h4>
                                 <form action="#" method="post">
 
@@ -108,7 +108,7 @@ Blogs
                                 <div class="blog-grids">
                                     <div class="blog-grid-left">
                                         <a href="single.html">
-                                    <img src="images/b1.jpg" class="img-fluid" alt="">
+                                    <img src="{{ $web_source }}/images/b1.jpg" class="img-fluid" alt="">
                                 </a>
                                     </div>
                                     <div class="blog-grid-right">
@@ -122,7 +122,7 @@ Blogs
                                 <div class="blog-grids">
                                     <div class="blog-grid-left">
                                         <a href="single.html">
-                                    <img src="images/b2.jpg" class="img-fluid" alt="">
+                                    <img src="{{ $web_source }}/images/b2.jpg" class="img-fluid" alt="">
                                 </a>
                                     </div>
                                     <div class="blog-grid-right">
@@ -136,7 +136,7 @@ Blogs
                                 <div class="blog-grids">
                                     <div class="blog-grid-left">
                                         <a href="single.html">
-                                    <img src="images/b3.jpg" class="img-fluid" alt="">
+                                    <img src="{{ $web_source }}/images/b3.jpg" class="img-fluid" alt="">
                                 </a>
                                     </div>
                                     <div class="blog-grid-right">

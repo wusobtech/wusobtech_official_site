@@ -18,8 +18,15 @@ Route::get('/about-us', 'WebController@aboutUs')->name('aboutUs');
 Route::get('/contact-us', 'WebController@contactUs')->name('contactUs');
 Route::get('/services', 'WebController@services')->name('services');
 Route::get('/blogs', 'WebController@blogs')->name('blogs');
+Route::match(['post','get'],'/admin/login', 'AdminController@login')->name('Adminlogin');
 
 Auth::routes();
-Route::resource('posts', 'PostsController');
 Route::get('/home', 'HomeController@index')->name('home');
 
+Route::group(['middleware' => ['admin']],function(){
+    Route::get('/admin/dashboard', 'AdminController@dashboard')->name('admin');
+    Route::get('/logout','AdminController@logout')->name('logout');
+
+    Route::get('/blogs', 'BlogController@index')->name('blogs');
+    Route::match(['get','post'],'/submit-blog', 'BlogController@store')->name('submitBlog');
+});

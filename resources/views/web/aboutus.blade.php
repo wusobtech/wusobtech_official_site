@@ -497,15 +497,4 @@ About Us
         </div>
     </div>
     <!-- //testimonials -->
-    <!--/newsletter -->
-    <section class="subscribe-main py-lg-5 py-4">
-        <div class="container">
-            <div class="newsletter-info text-center p-md-5 py-md-0 py-5 px-md-0 px-4">
-                <form action="#" method="post" class="d-flex">
-                    <input type="email" name="email" placeholder="Enter your Email..." required="">
-                    <input type="submit" value="Submit">
-                </form>
-            </div>
-        </div>
-    </section>
 @endsection

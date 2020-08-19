@@ -172,7 +172,7 @@ header {
 /*-- banner-w3layouts --*/
 
 #home {
-    background-image: linear-gradient(to left bottom, #0652dd, #0d58e2, #145de7, purple, #1e68f0);
+    background-image: linear-gradient(to left bottom, #0652dd, #0d58e2, #145de7, #1963eb, #1e68f0);
     position: relative;
 }
 
@@ -316,7 +316,7 @@ h3.tittle {
 
 .bottom-gd:hover,
 .bottom-gd2-active {
-    background: purple!important;
+    background: #1963eb!important;
     transition: 2s all;
     -webkit-transition: 2s all;
     -moz-transition: 2s all;
@@ -357,7 +357,7 @@ h3.tittle {
 }
 
 .fea span {
-    color: purple;
+    color: #1963eb;
     font-size: 3em;
 }
 
@@ -375,7 +375,7 @@ h3.tittle {
 }
 
 .fea.active {
-    background: purple;
+    background: #1963eb;
 }
 
 .fea.active p,
@@ -411,7 +411,7 @@ h3.tittle {
     margin-bottom: 0;
     text-align: center;
     font-weight: 600;
-    color: purple;
+    color: #1963eb;
 }
 
 .count-text {
@@ -452,7 +452,7 @@ h3.tittle {
 
 .sub-tittle-team {
     font-size: 0.6em;
-    color: purple;
+    color: #1963eb;
     font-weight: 700;
     letter-spacing: 2px;
     display: block;
@@ -577,7 +577,7 @@ p.sub-test i {
 }
 
 .testi_grid h5 {
-    color: purple;
+    color: #1963eb;
     letter-spacing: 1px;
     font-size: 1em;
     text-transform: uppercase;
@@ -634,7 +634,7 @@ section.hand-crafted p {
 /*----*/
 
 section.subscribe-main {
-    background-image: linear-gradient(to left bottom, #0652dd, #0d58e2, #145de7, purple, #1e68f0);
+    background-image: linear-gradient(to left bottom, #0652dd, #0d58e2, #145de7, #1963eb, #1e68f0);
 }
 
 
@@ -1185,7 +1185,7 @@ input.checkbox:checked:after {
 }
 
 .contact-form button.btn:hover {
-    background-image: linear-gradient(to left bottom, #0652dd, #0d58e2, #145de7, purple, #1e68f0);
+    background-image: linear-gradient(to left bottom, #0652dd, #0d58e2, #145de7, #1963eb, #1e68f0);
 }
 
 .map iframe {
@@ -1231,7 +1231,7 @@ input.checkbox:checked:after {
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
     transition: 0.5s all;
-    background-image: linear-gradient(to left bottom, #0652dd, #0d58e2, #145de7, purple, #1e68f0);
+    background-image: linear-gradient(to left bottom, #0652dd, #0d58e2, #145de7, #1963eb, #1e68f0);
     font-weight: 600;
     cursor: pointer;
 }

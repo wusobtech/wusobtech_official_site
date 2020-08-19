@@ -20,6 +20,12 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('services') }}">Services</a>
                             </li>
+                            @guest
+                            @else
+                            <li class="nav-link">
+                                <a href="{{ url('/admin/dashboard') }}">Dashboard</a>
+                            </li>
+                            @endguest
                             {{--  <li class="nav-item">
                                 <a class="nav-link" href="#">Tech-Job Connect</a>
                             </li>

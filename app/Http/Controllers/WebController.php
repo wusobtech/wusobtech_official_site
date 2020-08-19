@@ -22,7 +22,7 @@ class WebController extends Controller
         return view('web.services');
     }
 
-    public function blogs(){
+    public function blogsView(){
         return view('web.blogs');
     }
 }

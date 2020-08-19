@@ -19,20 +19,13 @@
                         <h3>Quick Links</h3>
                     </div>
                     <div class="row">
-                        <ul class="col-6 links">
-                            <li><a href="about.html">Why Choose Us </a></li>
-                            <li><a href="about.html">Overview </a></li>
-                            <li><a href="plans.html">Pricing Plans</a></li>
-
+                        <ul class="col-12 links">
+                            <li><a href="{{ route('aboutUs') }}">Why Choose Us </a></li>
                             <li><a href="gallery.html">Gallery</a></li>
                             <li><a href="contact.html">Contact </a></li>
-                        </ul>
-                        <ul class="col-6 links">
                             <li><a href="#">Privacy Policy </a></li>
                             <li><a href="#">General Terms </a></li>
                             <li><a href="#faq" class="scroll">Faq's </a></li>
-                            <li><a href="#">Knowledge </a></li>
-                            <li><a href="#">Forum </a></li>
                         </ul>
                     </div>
                 </div>

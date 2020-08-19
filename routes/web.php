@@ -17,7 +17,8 @@ Route::get('/', 'WebController@index');
 Route::get('/about-us', 'WebController@aboutUs')->name('aboutUs');
 Route::get('/contact-us', 'WebController@contactUs')->name('contactUs');
 Route::get('/services', 'WebController@services')->name('services');
-Route::get('/blogs-list', 'WebController@blogsView');
+Route::get('/our-blog', 'WebController@blogsView')->name('our_blog');
+Route::get('post/{id}/{slug}', 'WebController@blog_info')->name('blog_info');
 Route::match(['post','get'],'/admin/login', 'AdminController@login')->name('Adminlogin');
 
 Auth::routes();

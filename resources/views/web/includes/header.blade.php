@@ -36,7 +36,7 @@
                                 <a class="nav-link" href="#">Advertisements</a>
                             </li>  --}}
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ url('/blogs-list') }}">Blog</a>
+                                <a class="nav-link" href="{{ route('our_blog') }}">Blog</a>
                             </li>
                             {{--  <li class="nav-item">
                                 <a class="nav-link" href="#">Our Archives</a>

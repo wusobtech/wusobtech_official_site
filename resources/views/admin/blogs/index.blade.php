@@ -6,57 +6,13 @@
                 <div class="float-right page-breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="#">Wusob</a></li>
-                        <li class="breadcrumb-item active">Blog Validation</li>
+                        <li class="breadcrumb-item active">Blog Posts</li>
                     </ol>
                 </div>
                 <h5 class="page-title">Blog Posts</h5>
             </div>
         </div>
         <!-- end row -->
-
-        <div class="row">
-                <div class="col-12">
-                    <div class="card m-b-30">
-                        <div class="card-body">
-                            <h4 class="mt-0 header-title">Create Blog</h4>
-
-                            <form class="" enctype="multipart/form-data" method="POST" action="{{ route('submitBlog') }}">{{csrf_field()}}
-                                <div class="form-group">
-                                    <label>Title</label>
-                                    <div>
-                                        <input type="text" name="title" maxlength="50" id="" class="form-control" required autofocus value="{{old('title')}}">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label>Description</label>
-                                    <div>
-                                        <textarea name="description" id="summernote" required rows="5" cols="40" class="form-control summernote" required value="">{{old('description')}}</textarea>
-                                    </div>
-                                </div>
-
-                                <div class="form-group">
-                                    <label>Image</label>
-                                    <div>
-                                       <input type="file" name="image" required class="form-control" />
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div>
-                                        <button type="submit" class="btn btn-primary waves-effect waves-light">
-                                            Submit
-                                        </button>
-                                        <button type="reset" class="btn btn-secondary waves-effect m-l-5">
-                                            Cancel
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
-
-                        </div>
-                    </div>
-                </div> <!-- end col -->
-        </div> <!-- end row -->
-
         <div class="row">
             <div class="col-12">
                 <div class="card m-b-30">
@@ -83,18 +39,23 @@
                                 <tr>
                                     <td>{{$post->id}}</td>
                                     <td>{{$post->title}}</td>
-                                    <td>{{$post->description}}</td>
+                                    <td>{!! $post->description !!}</td>
                                     <td>
                                         @if (!empty($post->image))
-                                        <a href="{{ asset('post_images/'.$post->image) }}" target="_blank" class="btn btn-primary btn-block">Click to View Image</a>
+                                        <a href="{{ asset('post_images/'.$post->image) }}" target="_blank" class="btn btn-primary btn-xs">View</a>
                                         @endif
                                     </td>
-                                    <td>{{$post->status}}</td>
+                                    <td>{{$post->getStatus() }}</td>
                                     <td>{{$post->views}}</td>
                                     <td>{{$post->likes}}</td>
                                     <td>{{date('D , d M Y',strtotime($post->created_at)) }}</td>
-                                    <div class="fr"><td class="center"><a href="#" class="btn btn-primary btn-sm"><i class="ti-pencil"></i></a>
-                                        <a  href="#" class="btn btn-primary btn-sm"><i class="ti-trash"></i></a></td>
+                                    <div class="fr">
+                                        <td class="center">
+                                            <form action="{{ route('blog.posts.destroy' , $post)}}" method="post">@csrf @method('delete')
+                                                <a href="{{ route('blog.posts.edit' , $post)}}" class="btn btn-primary btn-sm"><i class="ti-pencil"></i></a>
+                                                <button type="submit" class="btn btn-primary btn-sm"><i class="ti-trash"></i></button>
+                                            </form>
+                                        </td>
                                     </div>
                                 </tr>
                                 @endforeach

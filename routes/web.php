@@ -30,3 +30,4 @@ Route::group(['middleware' => ['admin']],function(){
     Route::get('/blogs', 'BlogController@index')->name('blogs');
     Route::match(['get','post'],'/submit-blog', 'BlogController@store')->name('submitBlog');
 });
+

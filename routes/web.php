@@ -21,14 +21,19 @@ Route::get('/our-blog', 'WebController@blogsView')->name('our_blog');
 Route::get('post/{id}/{slug}', 'WebController@blog_info')->name('blog_info');
 Route::match(['post','get'],'/admin/login', 'AdminController@login')->name('Adminlogin');
 
-Auth::routes();
+Auth::routes(['register' => false , 'login' => false]);
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::group(['middleware' => ['admin']],function(){
-    Route::get('/admin/dashboard', 'AdminController@dashboard')->name('admin');
     Route::get('/logout','AdminController@logout')->name('logout');
 
-    Route::get('/blogs', 'BlogController@index')->name('blogs');
-    Route::match(['get','post'],'/submit-blog', 'BlogController@store')->name('submitBlog');
+    Route::prefix('admin')->group(function(){
+    Route::get('dashboard', 'AdminController@dashboard')->name('admin');
+        Route::prefix('blog')->as('blog.')->group(function(){
+            Route::resource('categories', 'BlogCategoryController');
+            Route::resource('posts', 'BlogController');
+        });
+    });
+
 });
 

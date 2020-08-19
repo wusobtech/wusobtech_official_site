@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Blog;
+use App\BlogCategory;
+use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
@@ -16,7 +18,7 @@ class BlogController extends Controller
      */
     public function index()
     {
-        $posts = Blog::paginate(5);
+        $posts = Blog::paginate(50);
         return view('admin.blogs.index',compact('posts'));
     }
 
@@ -27,7 +29,9 @@ class BlogController extends Controller
      */
     public function create()
     {
-        //
+        $categories = BlogCategory::where('status' , 1)->get();
+        return view('admin.blogs.create',compact('categories'));
+
     }
 
     /**
@@ -38,28 +42,35 @@ class BlogController extends Controller
      */
     public function store(Request $request)
     {
-        $request->validate([
-            'title' => 'required',
-            'description' => 'required',
-            'image' => 'required|image',
+        $data = $this->validateData($request);
+        $data['user_id'] = $user->id;
+        Blog::create($data);
+        toastr()->success('Post added successfully!');
+        return redirect()->back();
+    }
+
+
+    private function validateData(Request $request , $mode = 'required'){
+        $data = $request->validate([
+            'blog_category_id' => 'required|exists:blog_categories,id',
+            'title' => 'required|string',
+            'description' => 'required|string',
+            'image' =>  $mode.'|image',
+            'status' => 'required|string',
+            'meta_keywords' => 'nullable|string',
+            'meta_description' => 'nullable|string',
         ]);
 
         $user = Auth::User();
-        $image = $request->file('image');
-        $filename = time().'.'.$image->extension();
-        $destinationPath = public_path('/post_images');
-        $image->move($destinationPath, $filename);
+        if($image = $request->file('image')){
+            $filename = time().'.'.$image->extension();
+            $destinationPath = public_path('/post_images');
+            $image->move($destinationPath, $filename);
+            $data['image'] = $filename;
+        }
 
-        $slug = Str::slug($request['title']);
-        $post = Blog::create([
-            'user_id' => $user->id,
-            'title' => $request['title'],
-            'description' => $request['description'],
-            'image' => $filename,
-            'slug' => $slug,
-        ]);
-        toastr()->success('Post added successfully!');
-        return redirect()->back();
+        $data['slug'] = Str::slug($request['title']);
+        return $data;
     }
 
     /**
@@ -79,9 +90,10 @@ class BlogController extends Controller
      * @param  \App\Blog  $blog
      * @return \Illuminate\Http\Response
      */
-    public function edit(Blog $blog)
+    public function edit(Blog $post)
     {
-        //
+        $categories = BlogCategory::where('status' , 1)->get();
+        return view('admin.blogs.edit',compact('categories' , 'post'));
     }
 
     /**
@@ -91,9 +103,25 @@ class BlogController extends Controller
      * @param  \App\Blog  $blog
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Blog $blog)
+    public function update(Request $request, $id)
     {
-        //
+        $blog = Blog::findorfail($id);
+        if(empty($blog)){
+            toastr()->error('Item not found!');
+            return redirect()->back();
+        }
+        $data = $this->validateData($request , 'nullable');
+        if(!empty($blog->image)){
+            try{
+                unlink( public_path('/post_images').'/'.$blog->image);
+            }
+            catch(Exception $e){
+                toastr()->error('Couldn`t delete old image!');
+            }
+        }
+        $blog->update($data);
+        toastr()->success('Post updated successfully!');
+        return redirect()->back();
     }
 
     /**
@@ -102,8 +130,17 @@ class BlogController extends Controller
      * @param  \App\Blog  $blog
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Blog $blog)
+    public function destroy($id)
     {
-        //
+        $blog = Blog::findorfail($id);
+        try{
+            unlink(public_path('/post_images').'/'.$blog->image);
+        }
+        catch(Exception $e){
+            toastr()->error('Couldn`t delete old image!');
+        }
+        $blog->delete();
+        toastr()->success('Post deleted successfully!');
+        return redirect()->back();
     }
 }

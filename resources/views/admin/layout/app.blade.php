@@ -49,7 +49,7 @@
 
                 <div class="left-side-logo d-block d-lg-none">
                     <div class="text-center">
-                        <a href="#" class="logo"><img src="{{ $web_source }}/images/wusob_logo.png" height="20" alt="logo"></a>
+                        <a href="{{ url('/')}}" class="logo"><img src="{{ $web_source }}/images/wusob_logo.png" height="20" alt="logo"></a>
                     </div>
                 </div>
 
@@ -66,9 +66,18 @@
                             </li>
 
                             <li class="has_sub">
-                                <a href="javascript:void(0);" class="waves-effect"><i class="dripicons-blog"></i> <span> Blog List </span> <span class="menu-arrow float-right"><i class="mdi mdi-chevron-right"></i></span></a>
+                                <a href="javascript:void(0);" class="waves-effect"><i class="dripicons-blog"></i> <span> Blog Categories </span> <span class="menu-arrow float-right"><i class="mdi mdi-chevron-right"></i></span></a>
                                 <ul class="list-unstyled">
-                                    <li><a href="{{ route('blogs') }}">Add</a></li>
+                                    <li><a href="{{ route('blog.categories.create') }}">New Category</a></li>
+                                    <li><a href="{{ route('blog.categories.index') }}">All Categories</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="has_sub">
+                                <a href="javascript:void(0);" class="waves-effect"><i class="dripicons-blog"></i> <span> Blog </span> <span class="menu-arrow float-right"><i class="mdi mdi-chevron-right"></i></span></a>
+                                <ul class="list-unstyled">
+                                    <li><a href="{{ route('blog.posts.create') }}">New Post</a></li>
+                                    <li><a href="{{ route('blog.posts.index') }}">All Posts</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -128,6 +137,18 @@
                     <!-- Top Bar End -->
 
                     <div class="page-content-wrapper ">
+
+                        <div class="row">
+                            <div class="col-sm-12">
+                                @foreach ($errors->all() as $error)
+                                    <div class="alert alert-danger">
+                                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <i class="material-icons">close</i>
+                                        </button>
+                                        <span>{{$error }}</span>
+                                @endforeach
+                            </div>
+                        </div>
 
                         @yield('content')
 

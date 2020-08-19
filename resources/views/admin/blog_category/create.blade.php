@@ -6,10 +6,10 @@
                 <div class="float-right page-breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="#">Wusob</a></li>
-                        <li class="breadcrumb-item active">Edit Blog Post</li>
+                        <li class="breadcrumb-item active">New Blog Category</li>
                     </ol>
                 </div>
-                <h5 class="page-title">Edit Blog Post</h5>
+                <h5 class="page-title">Blog Categories</h5>
             </div>
         </div>
         <!-- end row -->
@@ -18,48 +18,15 @@
                 <div class="col-12">
                     <div class="card m-b-30">
                         <div class="card-body">
-                            <h4 class="mt-0 header-title">Edit Blog Post</h4>
+                            <h4 class="mt-0 header-title">Create Blog Category</h4>
 
-                            <form class="" enctype="multipart/form-data" method="POST" action="{{ route('blog.posts.update' , $post) }}">{{csrf_field()}} @method('put')
+                            <form class="" enctype="multipart/form-data" method="POST" action="{{ route('blog.categories.store') }}">{{csrf_field()}}
                                 <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label>Category</label>
-                                            <div>
-                                                <select name="blog_category_id"  class="form-control" required autofocus>
-                                                    <option value="" disabled selected> Select One</option>
-                                                    @foreach ($categories as $cat)
-                                                        <option value="{{ $cat->id }}" {{ $post->blog_category_id == $cat->id ? 'selected' : ''}}>{{ $cat->title }}</option>
-                                                    @endforeach
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label>Title</label>
                                             <div>
-                                                <input type="text" name="title" maxlength="50" id="" class="form-control" required autofocus value="{{ $post->title }}">
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="form-group">
-                                    <label>Description</label>
-                                    <div>
-                                        <textarea name="description" id="summernote" required rows="5" cols="40" class="form-control summernote" required value="">{{ $post->description }}</textarea>
-                                    </div>
-                                </div>
-
-
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label>Image</label>
-                                            <div>
-                                               <input type="file" name="image" class="form-control" />
+                                                <input type="text" name="title" maxlength="50" id="" class="form-control" required autofocus value="{{old('title')}}">
                                             </div>
                                         </div>
                                     </div>
@@ -69,8 +36,8 @@
                                             <div>
                                                 <select name="status"  class="form-control" required autofocus>
                                                     <option value="" disabled selected> Select One</option>
-                                                    <option value="1" {{ $post->status == '1' ? 'selected' : ''}}>Published</option>
-                                                    <option value="0" {{ $post->status == '0' ? 'selected' : ''}}>Unpublished</option>
+                                                    <option value="1" {{ old('status') == '1' ? 'selected' : ''}}>Published</option>
+                                                    <option value="0" {{ old('status') == '0' ? 'selected' : ''}}>Unpublished</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -79,7 +46,7 @@
                                         <div class="form-group">
                                             <label>Meta Keywords</label>
                                             <div>
-                                                <input type="text" name="meta_keywords" class="form-control"  autofocus value="{{ $post->meta_keywords }}">
+                                                <input type="text" name="meta_keywords" class="form-control"  autofocus value="{{old('meta_keywords')}}">
                                             </div>
                                         </div>
                                     </div>
@@ -87,11 +54,15 @@
                                         <div class="form-group">
                                             <label>Meta Description</label>
                                             <div>
-                                                <input type="text" name="meta_description" class="form-control"  autofocus value="{{ $post->meta_description }}">
+                                                <input type="text" name="meta_description" class="form-control"  autofocus value="{{old('meta_description')}}">
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+
+
+
+
                                 <div class="form-group">
                                     <div>
                                         <button type="submit" class="btn btn-primary waves-effect waves-light">

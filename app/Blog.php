@@ -8,11 +8,13 @@ class Blog extends Model
 {
     protected  $guarded=[];
 
-    public function getStatusAttribute($status){
-        return [
-            1 => 'Published',
-            0 => 'Unpublished',
-        ][$status];
+    public function getStatus(){
+       if($this->status == 0){
+           return 'Unpublished';
+       }
+       else{
+           return 'Published';
+       }
     }
 
     public function user(){

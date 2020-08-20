@@ -25,7 +25,8 @@ class WebController extends Controller
 
     public function blogsView(){
         $posts = Blog::orderby('created_at' , 'desc')->paginate(20);
-        return view('web.blogs' , compact('posts'));
+        $mostpopular = Blog::where('status',1)->orderby('views','desc')->get();
+        return view('web.blogs' , compact('posts','mostpopular'));
     }
 
     public function blog_info($id){

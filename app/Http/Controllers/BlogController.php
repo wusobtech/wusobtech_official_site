@@ -42,6 +42,7 @@ class BlogController extends Controller
      */
     public function store(Request $request)
     {
+        $user = Auth::User();
         $data = $this->validateData($request);
         $data['user_id'] = $user->id;
         Blog::create($data);

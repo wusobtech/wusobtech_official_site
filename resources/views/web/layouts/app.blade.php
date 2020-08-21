@@ -100,6 +100,7 @@
     <!-- //js -->
 
     <script src="{{ $web_source }}/js/bootstrap.js"></script>
+    <script src="{{ $web_source }}/js/custom.js"></script>
     @toastr_js
 </body>
 @toastr_render

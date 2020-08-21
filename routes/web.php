@@ -19,6 +19,8 @@ Route::get('/contact-us', 'WebController@contactUs')->name('contactUs');
 Route::get('/services', 'WebController@services')->name('services');
 Route::get('/our-blog', 'WebController@blogsView')->name('our_blog');
 Route::get('post/{id}/{slug}', 'WebController@blog_info')->name('blog_info');
+Route::post('make-comment', 'WebController@make_comment')->name('make_comment');
+Route::get('/share/{id}','WebController@share_post')->name('share_post');
 Route::match(['post','get'],'/admin/login', 'AdminController@login')->name('Adminlogin');
 
 Auth::routes(['register' => false , 'login' => false]);

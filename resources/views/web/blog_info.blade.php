@@ -16,6 +16,12 @@ Blogs
                                     <h6 class="date"><span>
                                     By: Admin</span> {{ date('M d, Y',strtotime($post->created_at)) }}</h6>
                                     <h5 class="card-title"><a class="b-post text-dark" href="{{ url('/post/'.$post->id) }}">{!! $post->title !!}</a></h5>
+                                    <div class="social-link">
+                                        <span> <i class="fa fa-link"></i> Share Post: </span>
+                                        @foreach($post->social_links as $platform)
+                                             <a href="{{$platform['shareUrl']}}" target="{{$platform['shareIn']}}"> <i class="{{$platform['logo']}}"></i></a>
+                                        @endforeach
+                                    </div>
                                     <p class="card-text">{!! $post->description !!}</p>
                                 </div>
                                 <div class="card-footer">
@@ -25,29 +31,24 @@ Blogs
 
 
                             <div class="comment-top">
-                                <h4>Comments</h4>
-                                <div class="media">
-                                    <img src="{{ $web_source }}/images/te1.jpg" alt="" class="img-fluid" />
-                                    <div class="media-body">
-                                        <h5 class="mt-0">Joseph Goh</h5>
-                                        <p>Lorem Ipsum convallis diam consequat magna vulputate malesuada. id dignissim sapien velit id felis ac cursus eros. Cras a ornare elit.</p>
-
-                                        <div class="media mt-3">
-                                            <a class="d-flex pr-3" href="#">
-                                        <img src="{{ $web_source }}/images/te2.jpg" alt="" class="img-fluid" />
-                                    </a>
-                                            <div class="media-body" data-aos="fade-up">
-                                                <h5 class="mt-0">Richard Spark</h5>
-                                                <p>Lorem Ipsum convallis diam consequat magna vulputate malesuada. id dignissim sapien velit id felis ac cursus eros. Cras a ornare elit.</p>
+                                <h4>Comments on Post (<span class="comment_count">{{$post->comments->count()}}</span> )</h4>
+                                @foreach($comments as $comment)
+                                        <div class="media" id="comment-{{$comment->id}}">
+                                            <img src="{{ $web_source }}/images/avatar.png" alt="" class="img-fluid" />
+                                            <div class="media-body">
+                                                <h5 class="mt-0">{{ $comment->name}}</h5>
+                                                {{ $comment->body }}
+                                                <hr>Posted:{{ date('M d, Y',strtotime($comment->created_at))}}<hr>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
+                                @endforeach
                             </div>
                             <div class="comment-top contact">
                                 <h4>Leave a Comment</h4>
-                                <form name="contactform " id="contactform" method="post" action="#" onsubmit="return(validate());" novalidate="novalidate">
+                                <p class="mt-3" id="reply_info" style="display:none">Replying to <span id="commentor_name"></span>`s comment <i class="fa fa-reply"></i></p>
+                                <form name="contactform " id="comment_form" method="post" action="{{ route('make_comment') }}">@csrf
                                     <div class="row">
+                                        <input type="hidden" name="blog_id"  value="{{$post->id}}" required>
                                         <div class="col-lg-6" data-aos="fade-up">
                                             <div class="form-group">
                                                 <label>Name</label>
@@ -55,27 +56,16 @@ Blogs
                                             </div>
                                             <div class="form-group">
                                                 <label>Email</label>
-                                                <input type="email" class="form-control" id="name" placeholder="Enter Email" name="email">
+                                                <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
                                             </div>
 
-                                        </div>
-                                        <div class="col-lg-6" data-aos="fade-up">
-
-                                            <div class="form-group">
-                                                <label>Phone No.</label>
-                                                <input type="text" class="form-control" id="phone" placeholder="Enter Phone no." name="phone">
-                                            </div>
-                                            <div class="form-group">
-                                                <label>Subject</label>
-                                                <input type="text" class="form-control" id="name" placeholder="Subject" name="subject">
-                                            </div>
                                         </div>
                                     </div>
                                     <div class="form-group" data-aos="fade-up">
-                                        <label>How can we help?</label>
-                                        <textarea name="issues" class="form-control" id="iq" placeholder="Enter Your Message Here"></textarea>
+                                        <label>Comment</label>
+                                        <textarea class="form-control" name="body" id="comment_field"  placeholder="Enter Your Message Here" required></textarea>
                                     </div>
-                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                    <button type="submit" id="comment_btn" class="btn btn-primary">Submit</button>
                                 </form>
 
                             </div>

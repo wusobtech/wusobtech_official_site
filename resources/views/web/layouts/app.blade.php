@@ -16,6 +16,24 @@
             window.scrollTo(0, 1);
         }
 
+
+    $('.limit_content').each(function(index) {
+        var content = $(this).html();
+        var limit = parseInt($(this).attr('limit'));
+        var split = content.split(' ');
+
+        if (split.length > limit) {
+
+            var new_content = '';
+            for (var i = 0; i < limit; i++) {
+                new_content = new_content.concat(' ' + split[i]);
+            }
+
+            $(this).html('<div class="' +index + '">' + new_content +'....read more</div');
+        }
+    });
+
+
     </script>
     <!-- //Meta tag Keywords -->
 

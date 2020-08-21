@@ -9,7 +9,7 @@ Contact Us Now
             <div class="ab-info-grids pt-md-5 pt-3">
                 <div class="contact-info pt-md-5 pt-0 text-center">
                     <h3 class="tittle text-uppercase text-center mb-lg-5 mb-3 inner-tittle"><span class="sub-tittle">Find Us</span> Contact Us</h3>
-                    <p class="text-center" data-aos="fade-up">Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.</p>
+                    <p class="text-center" data-aos="fade-up">Whether you have a question about services, trials, pricing, need a demo, or anything else, our team is ready to answer all your questions </p>
                     <div class="contact-form mt-md-5">
                         <div class="contact-form-inner mx-auto text-left">
                             <form name="contactform " id="contactform" method="post" action="#" onsubmit="return(validate());" novalidate="novalidate">

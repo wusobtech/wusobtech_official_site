@@ -18,7 +18,7 @@ Blogs
                                         By: Admin</span> {{ date('M d, Y',strtotime($post->created_at)) }}</h6>
                                         <h5 class="card-title"><a class="b-post text-dark" href="{{ route('blog_info',['id'=>$post->id,'slug'=>$post->slug])}}">{!! $post->title !!}</a></h5>
                                         <p class="card-text limit_content" limit="50">
-                                            {!! $post->description !!}
+                                            {{ str_limit( strip_tags($post->description), $limit = 100, $end = '...') }}
                                         </p>
                                         <a class="btn btn-banner-w3layouts text-capitalize my-3" href="{{ route('blog_info',['id'=>$post->id,'slug'=>$post->slug])}}">Read More</a>
                                     </div>

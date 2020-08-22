@@ -27,7 +27,7 @@
                                         <div class="form-group">
                                             <label>Title</label>
                                             <div>
-                                                <input type="text" name="title" maxlength="50" id="" class="form-control" required autofocus value="{{ $cat->title }}">
+                                                <input type="text" name="title" maxlength="100" id="" class="form-control" required autofocus value="{{ $cat->title }}">
                                             </div>
                                         </div>
                                     </div>

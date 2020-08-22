@@ -12,21 +12,21 @@ Home
                         <div class="bottom-gd p-5">
 
                             <h3 class="my-3"> <span class="fa fa-crosshairs" aria-hidden="true"></span> Web Interactive</h3>
-                            <p>Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis.</p>
+                            <p>*For your interactive, user friendly and responsive Website. We deliver it.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 p-0" data-aos="fade-up">
                         <div class="bottom-gd2-active p-5">
 
                             <h3 class="my-3"> <span class="fa fa-clone" aria-hidden="true"></span> Unique design</h3>
-                            <p>Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis.</p>
+                            <p>When we talk about world-class designs that's second to none, we deliver it at an affordable price.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 p-0" data-aos="fade-up">
                         <div class="bottom-gd p-5">
 
                             <h3 class="my-3"> <span class="fa fa-laptop" aria-hidden="true"></span> Supporting</h3>
-                            <p>Integer sit amet mattis quam, sit amet ultricies velit. Praesent ullamcorper dui turpis.</p>
+                            <p>For your technical support our Engineers are competent and always ready to help your business runs effectively</p>
                         </div>
                     </div>
 
@@ -41,12 +41,12 @@ Home
                                 <div class="bottom-gd fea p-5 my-3" data-aos="fade-left">
                                     <span class="fa fa-lightbulb-o" aria-hidden="true"></span>
                                     <h3 class="my-3 text-uppercase">Creative Design</h3>
-                                    <p class="px-lg-3">Integer sit amet mattis quam, sit amet ultricies velit.convallis at tellus. Nulla quis lorem ipnut libero malesuada feugiat. Lorem ipsum dolor sit amet.</p>
+                                    <p class="px-lg-3">Our Competent and reliable Engineers are always ready to think through your ideas and bring it to fruition with creative designs. All for your Business success.</p>
                                 </div>
                                 <div class="bottom-gd fea active p-5" data-aos="fade-left">
                                     <span class="fa fa-laptop" aria-hidden="true"></span>
                                     <h3 class="my-3 text-uppercase">100% Responsive</h3>
-                                    <p class="px-lg-3">Integer sit amet mattis quam, sit amet ultricies velit.convallis at tellus. Nulla quis lorem ipnut libero malesuada feugiat. Lorem ipsum dolor sit amet.</p>
+                                    <p class="px-lg-3">Our softwares are responsive, user friendly and geard towards providing solutions to your Business problems.</p>
                                 </div>
                             </div>
                         </div>

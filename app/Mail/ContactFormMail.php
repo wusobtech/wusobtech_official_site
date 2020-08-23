@@ -29,6 +29,9 @@ class ContactFormMail extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.contactform');
+        return $this->subject('New Contact Mail')
+                    ->from($this->data->email, $this->data->name)
+                    ->to('contact@wusobtech.com')
+                    ->markdown('emails.contactform');
     }
 }

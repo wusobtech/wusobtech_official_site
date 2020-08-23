@@ -53,9 +53,5 @@ Contact Us Now
             </div>
         </div>
     </section>
-    <script src="{{ $web_source }}/js/custom1.js"></script>
-    <script src="{{ $web_source }}/js/app.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-    <script src="{{ $web_source }}/js/jquery.validation.min.js"></script>
 
 @endsection

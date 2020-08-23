@@ -45,7 +45,7 @@ Blogs
                             </div>
                             <div class="comment-top contact">
                                 <h4>Leave a Comment</h4>
-                                <p class="mt-3" id="reply_info" style="display:none">Replying to <span id="commentor_name"></span>`s comment <i class="fa fa-reply"></i></p>
+                                <div id="form_field" class=""></div>
                                 <form name="contactform " id="comment_form" method="post" action="{{ route('make_comment') }}">@csrf
                                     <div class="row">
                                         <input type="hidden" name="blog_id"  value="{{$post->id}}" required>

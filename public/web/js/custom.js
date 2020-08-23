@@ -17,9 +17,10 @@ $('#comment_form').on('submit', function(e) {
         data: formdata,
         success: function(data) {
             $('#comment_field').val('');
-            console.log(data);
+            console.log(data);        
             if (data.success) {
-                alert("Comment added succssfullyg!");
+                successMsg("Success", data.msg);          
+                errorMsg("Error", data.msg);        
             }
             $('.comment_count').each(function() {
                 $(this).text(parseInt($(this).text()) + 1);

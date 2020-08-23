@@ -17,10 +17,8 @@ Blogs
                                         <h6 class="date"><span>
                                         By: Admin</span> {{ date('M d, Y',strtotime($post->created_at)) }}</h6>
                                         <h5 class="card-title"><a class="b-post text-dark" href="{{ route('blog_info',['id'=>$post->id,'slug'=>$post->slug])}}">{!! $post->title !!}</a></h5>
-                                        <p class="card-text">
-                                            {!! $post->description !!}
-                                        </p>
-                                        <a class="btn btn-banner-w3layouts text-capitalize my-3" href="{{ route('blog_info',['id'=>$post->id,'slug'=>$post->slug])}}">Read More</a>
+
+                                        <a class="btn btn-banner-w3layouts text-capitalize my-3" href="{{ route('blog_info',['id'=>$post->id,'slug'=>$post->slug])}}">Read</a>
                                     </div>
                                     <div class="card-footer">
                                         <small class="text-muted">Last updated 3 mins ago</small>

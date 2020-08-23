@@ -35,12 +35,16 @@
                     </div>
                     <div class="footer-text">
                         <p>By subscribing to our mailing list you will always get latest news and updates from us.</p>
-                        <form action="#" method="post">
-                            <input type="email" name="Email" placeholder="Enter your email..." required="">
-                            <button class="btn1"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
+                        <form action="{{ route('subscribe') }}" method="post" id="subscribe_form">@csrf
+
+                            <input type="email" name="email" placeholder="Enter your email..." required="">
+                            <button type="submit" id="subscribe_btn" class="btn1"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
                             <div class="clearfix"> </div>
-                        </form>
+
+                        
                     </div>
+                    <p id="subscribe_btn_text">Signup to get the updates on email from the city & town affairs!</p>
+                </form>
                 </div>
             </div>
             <div class="footer-grid_section text-center">

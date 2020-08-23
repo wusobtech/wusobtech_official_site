@@ -21,9 +21,9 @@
                     <div class="row">
                         <ul class="col-12 links">
                             <li><a href="{{ route('aboutUs') }}">Why Choose Us </a></li>
-                            <li><a href="gallery.html">Gallery</a></li>
-                            <li><a href="contact.html">Contact </a></li>
-                            <li><a href="#">Privacy Policy </a></li>
+                            <li><a href="{{ route('services') }}">Services</a></li>
+                            <li><a href="{{ route('contactUs') }}">Contact </a></li>
+                            <li><a href="{{ route('our_blog') }}">Blog </a></li>
                             <li><a href="#">General Terms </a></li>
                             <li><a href="#faq" class="scroll">Faq's </a></li>
                         </ul>
@@ -41,7 +41,7 @@
                             <button type="submit" id="subscribe_btn" class="btn1"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></button>
                             <div class="clearfix"> </div>
 
-                        
+
                     </div>
                     <p id="subscribe_btn_text">Signup to get the updates on email from the city & town affairs!</p>
                 </form>

@@ -12,7 +12,7 @@ Home
                         <div class="bottom-gd p-5">
 
                             <h3 class="my-3"> <span class="fa fa-crosshairs" aria-hidden="true"></span> Web Interactive</h3>
-                            <p>*For your interactive, user friendly and responsive Website. We deliver it.</p>
+                            <p>For your interactive, user friendly and responsive Website. We deliver it.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 p-0" data-aos="fade-up">
@@ -530,5 +530,5 @@ Home
     </div>
     <!-- //testimonials -->
     <!--/newsletter -->
-    
+
 @endsection

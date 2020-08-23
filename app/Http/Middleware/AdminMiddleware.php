@@ -17,11 +17,11 @@ class AdminMiddleware
      */
     public function handle($request, Closure $next)
     {
-        if (Auth::check()) {
+        if(Auth::check()){
             $user = Auth::User();
-            if ($user->role == 'Admin') {
-                Session::flash('error_msg','Access Denied!.....Admins Only!');
-                return redirect('/admin/dashboard');
+            if($user->role != 'Admin'){
+                Session::flash('error_msg','Acess Denied!...Admins only!');
+                return redirect('/home');
             }
         } else{
             return redirect('/admin/login');

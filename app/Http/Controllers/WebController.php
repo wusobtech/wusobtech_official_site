@@ -3,8 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Blog;
+use App\Subscriber;
 use App\BlogComments;
 use Illuminate\Http\Request;
+use App\Mail\ContactFormMail;
+use Mail;
 
 class WebController extends Controller
 {
@@ -18,6 +21,35 @@ class WebController extends Controller
 
     public function contactUs(){
         return view('web.contactus');
+    }
+
+    public function sendContact(Request $request){
+        if($request->isMethod('post')){
+            $data = $request->all();
+            $this->validate($request, [
+                'name'     =>  'required',
+                'email'  =>  'required|email',
+                'phone'  =>  'required',
+                'subject'  =>  'required',
+                'bodyMessage' =>  'required'
+            ]);
+
+            $data = array(
+                "name"      =>  $request->name,
+                "email"   =>   $request->email,
+                "phone"   =>   $request->phone,
+                "subject"   =>   $request->subject,
+                "bodyMessage"   =>   $request->bodyMessage
+            );
+
+            $email = 'contact@wusobtech.com';
+
+            // Send An Email
+            Mail::to($email)->send(new ContactFormMail($data));
+
+            toastr()->success('Mail Sent Successfully!.');
+            return redirect()->back();
+        }
     }
 
     public function services(){
@@ -89,8 +121,8 @@ class WebController extends Controller
             // [
             //     'type' => 'Instagram',
             //     'label'=> "Instagram",
-            //     'logo'=> "fab fa-instagram",
-            //     'shareUrl'=> "https://www.instagram.com/mailto:{to}?subject=".$title."&body=".$url,
+            //     'logo'=> "fa fa-instagram",
+            //     'shareUrl'=> "https://www.instagram.com/share?url=".$url."",
             //     'countUrl'=> "",
             //     'shareIn'=> "_blank",
             //     'color' => '#00aced',
@@ -117,5 +149,19 @@ class WebController extends Controller
             ],
 
         ];
+    }
+
+    public function subscribe(Request $request){
+        $data = $request->validate([
+            'email' => 'required|email'
+        ]);
+
+        $check = Subscriber::where('email',$data['email'])->count();
+
+        if($check > 0){
+            return response()->json(['msg' => 'You already subscribed.Thanks!']);
+        }
+        Subscriber::create($data);
+        return response()->json(['msg' => 'Subscribed successfully!']);
     }
 }

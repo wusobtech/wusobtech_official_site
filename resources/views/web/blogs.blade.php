@@ -2,6 +2,7 @@
 @section('title')
 Blogs
 @endsection
+
 @section('content')
     <section class="ab-info-main py-md-5 py-5">
         <div class="container py-md-5 py-5">
@@ -11,17 +12,19 @@ Blogs
                     <div class="row mt-lg-5 mt-3">
                         <div class="col-lg-8 blog-left-content">
                             @foreach ($posts as $post)
-                                <div class="card" data-aos="fade-up">
+                                <div class="card mb-2" data-aos="fade-up">
                                 <a href="{{ route('blog_info' , ['id' => $post->id , 'slug' => $post->slug ]) }}"> <img class="card-img-top" src="{{ asset('post_images/'.$post->image) }}" alt=""></a>
                                     <div class="card-body">
                                         <h6 class="date"><span>
                                         By: Admin</span> {{ date('M d, Y',strtotime($post->created_at)) }}</h6>
                                         <h5 class="card-title"><a class="b-post text-dark" href="{{ route('blog_info',['id'=>$post->id,'slug'=>$post->slug])}}">{!! $post->title !!}</a></h5>
-
-                                        <a class="btn btn-banner-w3layouts text-capitalize my-3" href="{{ route('blog_info',['id'=>$post->id,'slug'=>$post->slug])}}">Read</a>
+                                        <p class="card-text limit_content" limit="50">
+                                            {{  \Illuminate\Support\Str::limit( strip_tags($post->description), $limit = 100, $end = '...') }}
+                                        </p>
+                                        <a class="btn btn-banner-w3layouts text-capitalize my-3" href="{{ route('blog_info',['id'=>$post->id,'slug'=>$post->slug])}}">Read More</a>
                                     </div>
                                     <div class="card-footer">
-                                        <small class="text-muted">Last updated 3 mins ago</small>
+                                    <small class="text-muted">Last updated on {{ date('M d, Y' , strtotime($post->updated_at))}}</small>
                                     </div>
                                 </div>
                             @endforeach
@@ -71,5 +74,21 @@ Blogs
             </div>
         </div>
     </section>
+<script>
+    $('.limit_content').each(function(index) {
+        var content = $(this).html();
+        var limit = parseInt($(this).attr('limit'));
+        var split = content.split(' ');
 
+        if (split.length > limit) {
+
+            var new_content = '';
+            for (var i = 0; i < limit; i++) {
+                new_content = new_content.concat(' ' + split[i]);
+            }
+
+            $(this).html('<div class="' +index + '">' + new_content +'....read more</div');
+        }
+    });
+</script>
 @endsection

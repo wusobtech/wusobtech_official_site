@@ -35,6 +35,7 @@
     <!-- /Fonts -->
     <link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Playfair+Display:400,400i,700i" rel="stylesheet">
+    <script src="//rum-static.pingdom.net/pa-5f44e30d8e83fa0015000963.js" async></script>
     @toastr_css
     <!-- //Fonts -->
 
@@ -100,6 +101,7 @@
 
     <script src="{{ $web_source }}/js/bootstrap.js"></script>
     <script src="{{ $web_source }}/js/custom.js"></script>
+    <script src="{{ $web_source }}/js/jquery-2.2.3.min.js"></script>
     @toastr_js
 </body>
 @toastr_render

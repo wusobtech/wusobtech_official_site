@@ -39,14 +39,13 @@ Blogs
                             <div class="single-gd">
                                 <img src="{{ $web_source }}/images/banner-w3layouts1.jpg" class="img-fluid" alt="">
                                 <h4>Sign up to our newsletter</h4>
-                                <form action="#" method="post">
+                                <form action="{{ route('subscribe') }}" method="post" id="subscribe_form">@csrf
 
-                                    <input type="email" name="Email" placeholder="Email" required="">
+                                    <input type="email" name="email" placeholder="Email" required="">
                                     <div class="button">
-
-                                        <input type="submit" value="Subscribe">
-
+                                        <input type="submit" id="subscribe_btn" value="Subscribe">
                                     </div>
+                                    <p id="subscribe_btn_text">Signup to get the updates on email from the city & town affairs!</p>
                                 </form>
                             </div>
                             <div class="single-gd tech-btm" data-aos="fade-down">
@@ -74,21 +73,4 @@ Blogs
             </div>
         </div>
     </section>
-<script>
-    $('.limit_content').each(function(index) {
-        var content = $(this).html();
-        var limit = parseInt($(this).attr('limit'));
-        var split = content.split(' ');
-
-        if (split.length > limit) {
-
-            var new_content = '';
-            for (var i = 0; i < limit; i++) {
-                new_content = new_content.concat(' ' + split[i]);
-            }
-
-            $(this).html('<div class="' +index + '">' + new_content +'....read more</div');
-        }
-    });
-</script>
 @endsection

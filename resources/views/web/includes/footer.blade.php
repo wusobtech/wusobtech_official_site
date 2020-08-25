@@ -9,9 +9,9 @@
                     </div>
                     <div class="footer-text">
                         <p>Address : Suite 4, Jabita Complex, Owode bus-stop Ajah, Lekki, Lagos Nigeria</p>
+                        <p>Mobile : +234 7059421153</p>
                         <p>Phone : +234 8112716233</p>
                         <p>Email : <a href="mailto:contact@wusobtech.com">contact@wusobtech.com</a></p>
-                        <p>Mobile : +234 7059421153</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-md-0 mt-4 footer-grid_section_1its">
@@ -24,8 +24,6 @@
                             <li><a href="{{ route('services') }}">Services</a></li>
                             <li><a href="{{ route('contactUs') }}">Contact </a></li>
                             <li><a href="{{ route('our_blog') }}">Blog </a></li>
-                            <li><a href="#">General Terms </a></li>
-                            <li><a href="#faq" class="scroll">Faq's </a></li>
                         </ul>
                     </div>
                 </div>
@@ -49,7 +47,7 @@
             </div>
             <div class="footer-grid_section text-center">
                 <div class="footer-title-w3ls mb-3" data-aos="fade-up">
-                    <a class="text-uppercase"><img height="90px" width="90px" src="{{ $web_source }}/images/wusob_logo.png" /> WUSOB</a>
+                    <a href="{{ url('/') }}" class="text-uppercase"><img height="90px" width="90px" src="{{ $web_source }}/images/wusob_logo.png" /> WUSOB</a>
                 </div>
                 <div class="footer-text">
                     <p data-aos="fade-up">WUSOB TECHNOLOGIES is an IT firm that specializes in the provision

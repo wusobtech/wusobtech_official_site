@@ -20,6 +20,7 @@ Route::match(['post', 'get'],'/send', 'WebController@sendContact');
 Route::get('/services', 'WebController@services')->name('services');
 Route::get('/our-blog', 'WebController@blogsView')->name('our_blog');
 Route::match(['post', 'get'],'/subscribe', 'WebController@subscribe')->name('subscribe');
+Route::get('unsubscribe/{email}','WebController@unsubscribe')->name('unsubscribe');
 Route::get('post/{id}/{slug}', 'WebController@blog_info')->name('blog_info');
 Route::post('make-comment', 'WebController@make_comment')->name('make_comment');
 Route::get('/share/{id}','WebController@share_post')->name('share_post');

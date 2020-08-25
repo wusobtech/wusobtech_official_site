@@ -3,7 +3,7 @@
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <h1>
-                        <a class="navbar-brand"><img height="40px" width="40px" src="{{ $web_source }}/images/wusob_logo.png" /></a>
+                        <a href="{{ url('/') }}" class="navbar-brand"><img height="40px" width="40px" src="{{ $web_source }}/images/wusob_logo.png" /></a>
                     </h1>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>

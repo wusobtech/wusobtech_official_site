@@ -7,7 +7,9 @@ use App\Subscriber;
 use App\BlogComments;
 use Illuminate\Http\Request;
 use App\Mail\ContactFormMail;
-use Mail;
+use App\Mail\NewsLetter;
+use Illuminate\Support\Facades\Mail;
+
 
 class WebController extends Controller
 {
@@ -162,6 +164,19 @@ class WebController extends Controller
             return response()->json(['msg' => 'You already subscribed.Thanks!']);
         }
         Subscriber::create($data);
+        Mail::to($data['email'])->send(new NewsLetter($data));
         return response()->json(['msg' => 'Subscribed successfully!']);
     }
+
+    public function unsubscribe($email){
+        $find_email = Subscriber::where('email',$email)->first();
+       //  dd(empty($find_email));
+        if(empty($find_email)){
+            $msg = 'Sorry, your email wasn`t found on our list! ';
+           //  return view('web.unsubscribe',compact('msg'));
+        }
+       $find_email->delete();
+       $msg = 'You have successfully unsubscribed from our mailing list!';
+       // return view('web.unsubscribe',compact('msg'));
+   }
 }

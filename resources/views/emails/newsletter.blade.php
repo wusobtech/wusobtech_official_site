@@ -12,7 +12,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <link rel="apple-touch-icon" sizes="76x76" href="http://paulgoddarddesign.com/images/apple-icon.jpg">
     <link rel="icon" type="image/png" sizes="96x96" href="http://paulgoddarddesign.com/images/favicon.jpg">
-    <title>Enquiry Mail</title>
+    <title>Newsletter Subcription Confirmation</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src="http://paulgoddarddesign.com/js/ripple.js"></script>
@@ -195,22 +195,12 @@
                               <!-- START BODY COPY -->
                               <tr>
                                 <td class="td-padding" align="left" style=" color: #212121!important; font-size: 24px; line-height: 30px; padding-top: 18px; padding-left: 18px!important; padding-right: 18px!important; padding-bottom: 0px!important; mso-line-height-rule: exactly; mso-padding-alt: 18px 18px 0px 13px;">
-                                    Enquiry Mail from {{ $letter['name'] }}
-                                </td>
-                              </tr>
-                              <tr>
-                                <td class="td-padding" align="left" style=" color: #212121!important; font-size: 24px; line-height: 30px; padding-top: 18px; padding-left: 18px!important; padding-right: 18px!important; padding-bottom: 0px!important; mso-line-height-rule: exactly; mso-padding-alt: 18px 18px 0px 13px;">
-                                    Enquiry Phone number from {{ $letter['phone'] }}
+                                Newsletter Confirmation Notification
                                 </td>
                               </tr>
                               <tr>
                                 <td class="td-padding" align="left" style=" color: #212121!important; font-size: 16px; line-height: 24px; padding-top: 18px; padding-left: 18px!important; padding-right: 18px!important; padding-bottom: 0px!important; mso-line-height-rule: exactly; mso-padding-alt: 18px 18px 0px 18px;">
-                                    Mail Subject: <p> {{ $letter['subject']}} </p>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td class="td-padding" align="left" style=" color: #212121!important; font-size: 16px; line-height: 24px; padding-top: 18px; padding-left: 18px!important; padding-right: 18px!important; padding-bottom: 0px!important; mso-line-height-rule: exactly; mso-padding-alt: 18px 18px 0px 18px;">
-                                    Email Content: <p> {{ $letter['bodyMessage']}} </p>
+                                   Your have succesfully subsribed to our newsletter. Stay tuned for more updates.
                                 </td>
                               </tr>
                               <!-- END BODY COPY -->
@@ -260,6 +250,11 @@
                         <tr>
                           <td class="td-padding" align="center" style=" color: #212121!important; font-size: 16px; line-height: 24px; padding-top: 0px; padding-left: 0px!important; padding-right: 0px!important; padding-bottom: 0px!important; mso-line-height-rule: exactly; mso-padding-alt: 0px 0px 0px 0px;">
                             &copy; {{ now()->year }}  Wusob Technologies.
+                          </td>
+                        </tr>
+                        <tr>
+                          <td align="center" bgcolor="#eeeeee">
+                           You received this email because you are an active subscriber to our latest newsletter updates. If you no longer want to receive updates from us, kindly <a href="{{ route('unsubscribe',$letter['email'] )}}" target="_blank" style="font-size: 12px; line-height: 14px; font-weight: 500;  color: #212121; text-decoration: underline;padding: 0px; border: 1px solid #eeeeee; display: inline-block;">click here to unsubscribe.</a>
                           </td>
                         </tr>
                       </table>

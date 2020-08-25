@@ -45,8 +45,7 @@ Contact Us Now
                                 <input type="submit" class="btn btn-primary" value="Send Message" data-loading-text="Sending...">
                             </form>
                             <div class="map mt-md-5" data-aos="fade-up">
-
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100949.24429313939!2d-122.44206553967531!3d37.75102885910819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2sin!4v1472190196783" class="map" style="border:0" allowfullscreen=""></iframe> </div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.1475662390053!2d3.5804754154079483!3d6.502996425203946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bfa753fd11f17%3A0x231e4f63a072574c!2sOwode%20Bus%20Stop!5e0!3m2!1sen!2sng!4v1598350963244!5m2!1sen!2sng" class="map" style="border:0" allowfullscreen=""></iframe> </div>
                             </div>
                     </div>
                 </div>

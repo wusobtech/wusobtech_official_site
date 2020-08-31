@@ -4,7 +4,7 @@
 <head>
     <title>@yield('title') :: WUSOB</title>
     <!-- Meta tag Keywords -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta charset="UTF-8" />
     <meta name="keywords" content="Wusob Technologies, NGO-Website Developent, Eccommerce-Website-Developmwnt with Payment Integration, Mobile-APp Development, Desktop-App Development" />
     <script>

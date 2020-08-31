@@ -170,13 +170,10 @@ class WebController extends Controller
 
     public function unsubscribe($email){
         $find_email = Subscriber::where('email',$email)->first();
-       //  dd(empty($find_email));
         if(empty($find_email)){
             $msg = 'Sorry, your email wasn`t found on our list! ';
-           //  return view('web.unsubscribe',compact('msg'));
         }
        $find_email->delete();
        $msg = 'You have successfully unsubscribed from our mailing list!';
-       // return view('web.unsubscribe',compact('msg'));
    }
 }

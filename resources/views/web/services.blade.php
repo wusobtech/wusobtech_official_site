@@ -66,13 +66,13 @@ Services
                                 <div class="bottom-gd fea p-5 my-3" data-aos="fade-left">
                                     <span class="fa fa-lightbulb-o" aria-hidden="true"></span>
                                     <h3 class="my-3 text-uppercase">Creative Design</h3>
-                                    <p class="px-lg-3">Integer sit amet mattis quam, sit amet ultricies velit.convallis at tellus. Nulla quis lorem ipnut libero malesuada feugiat. Lorem ipsum dolor sit amet.</p>
-                                </div>
+                                    <p class="px-lg-3">Our Competent and reliable Engineers are always ready to think through your ideas and bring it to fruition with creative designs. All for your Business success.</p>
+                               </div>
                                 <div class="bottom-gd fea active p-5" data-aos="fade-left">
                                     <span class="fa fa-laptop" aria-hidden="true"></span>
                                     <h3 class="my-3 text-uppercase">100% Responsive</h3>
-                                    <p class="px-lg-3">Integer sit amet mattis quam, sit amet ultricies velit.convallis at tellus. Nulla quis lorem ipnut libero malesuada feugiat. Lorem ipsum dolor sit amet.</p>
-                                </div>
+                                    <p class="px-lg-3">Our softwares are responsive, user friendly and geard towards providing solutions to your Business problems.</p>
+                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6 p-0">

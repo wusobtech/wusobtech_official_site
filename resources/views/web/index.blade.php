@@ -38,7 +38,7 @@
                             <img src="{{ $web_source }}/img/svg_icon/1.svg" alt="">
                         </div>
                         <h3>Creative Design</h3>
-                        <p>Our softwares are responsive, user friendly and geard towards providing solutions to your Business problems.</p>
+                        <p>Our Competent and reliable Engineers are always ready to think through your ideas and bring it to fruition with creative designs. All for your Business success.</p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-4">
@@ -47,7 +47,7 @@
                             <img src="{{ $web_source }}/img/svg_icon/2.svg" alt="">
                         </div>
                         <h3>Web development</h3>
-                        <p>Our softwares are responsive, user friendly and geard towards providing solutions to your Business problems.</p>
+                        <p>Our WebSites are responsive, user friendly and geard towards providing solutions to your Business problems.</p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-4">
@@ -56,7 +56,7 @@
                             <img src="{{ $web_source }}/img/svg_icon/3.svg" alt="">
                         </div>
                         <h3>Mobile App</h3>
-                        <p>Our softwares are responsive, user friendly and geard towards providing solutions to your Business problems.</p>
+                        <p>Apple iOS, Android, Mobile Applications and Software that are build to scale and perform better on low specification devices.</p>
                     </div>
                 </div>
             </div>
@@ -89,7 +89,7 @@
                 <div class="col-lg-6">
                     <div class="section_title text-center mb-90">
                         <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Featured Works</h3>
-                        <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Tour function information without cross action media value quickly maximize timely deliverables.</p>
+                        <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Check out some of our works and solutions</p>
                     </div>
                 </div>
             </div>
@@ -97,13 +97,13 @@
                 <div class="col-lg-8 col-md-12">
                     <div class="single_Portfolio wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
                         <div class="portfolio_thumb">
-                            <img src="{{ $web_source }}/img/portfolio/1.png" alt="">
+                            <img src="{{ $web_source }}/img/portfolio/7.png" alt="">
                         </div>
                         <div class="portfolio_hover">
                             <div class="title">
-                                <span>App Design</span>
-                                    <h3>Colorlib Mobile App</h3>
-                                    <a class="boxed-btn3" href="portfolio_details.html">View</a>
+                                <span>Mobile App Design</span>
+                                    <h3>Frenzo</h3>
+                                <!--    <a class="boxed-btn3" href="portfolio_details.html">View</a> -->
                             </div>
                         </div>
                     </div>
@@ -115,9 +115,9 @@
                         </div>
                         <div class="portfolio_hover">
                             <div class="title">
-                                <span>App Design</span>
-                                    <h3>Colorlib Mobile App</h3>
-                                    <a class="boxed-btn3" href="portfolio_details.html">View</a>
+                                <span>Website Design</span>
+                                    <h3>Africa United Forum</h3>
+                                <!--    <a class="boxed-btn3" href="portfolio_details.html">View</a> -->
                             </div>
                         </div>
                     </div>
@@ -125,13 +125,13 @@
                 <div class="col-lg-4 col-md-6 col-lg-4">
                     <div class="single_Portfolio wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                         <div class="portfolio_thumb">
-                            <img src="{{ $web_source }}/img/portfolio/3.png" alt="">
+                            <img src="{{ $web_source }}/img/portfolio/1.png" alt="">
                         </div>
                         <div class="portfolio_hover">
                             <div class="title">
-                                <span>App Design</span>
-                                    <h3>Colorlib Mobile App</h3>
-                                    <a class="boxed-btn3" href="portfolio_details.html">View</a>
+                                <span>Mobile App Design</span>
+                                    <h3>Biometric Scanner and Register</h3>
+                                <!--    <a class="boxed-btn3" href="portfolio_details.html">View</a> -->
                             </div>
                         </div>
                     </div>
@@ -143,9 +143,9 @@
                         </div>
                         <div class="portfolio_hover">
                             <div class="title">
-                                <span>App Design</span>
-                                    <h3>Colorlib Mobile App</h3>
-                                    <a class="boxed-btn3" href="portfolio_details.html">View</a>
+                                <span>Ecommerce Website Design</span>
+                                    <h3>Greener Norah</h3>
+                                <!--    <a class="boxed-btn3" href="portfolio_details.html">View</a> -->
                             </div>
                         </div>
                     </div>
@@ -153,13 +153,13 @@
                 <div class="col-lg-4 col-md-6 col-lg-4">
                     <div class="single_Portfolio wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">
                         <div class="portfolio_thumb">
-                            <img src="{{ $web_source }}/img/portfolio/5.png" alt="">
+                            <img src="{{ $web_source }}/img/portfolio/6.png" alt="">
                         </div>
                         <div class="portfolio_hover">
                             <div class="title">
-                                <span>App Design</span>
-                                    <h3>Colorlib Mobile App</h3>
-                                    <a class="boxed-btn3" href="portfolio_details.html">View</a>
+                                <span>Software Design</span>
+                                    <h3>Financial Software Solution</h3>
+                                <!--    <a class="boxed-btn3" href="#">View</a> -->
                             </div>
                         </div>
                     </div>
@@ -176,14 +176,19 @@
                     <div class="work_info">
                         <div class="section_title">
                             <h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">How we work</h3>
-                            <p class="mid_text wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">“Information is key.</p>
-                            <p class="last_p wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">WUSOB TECHNOLOGIES is a full custom services firm. In achieving that, it’s our business to quickly adapt to meet our clients’ diverse needs… and we have a proven track record of doing just that.</p>
+                            <p class="mid_text wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">“Information is key"</p>
+                            <p class="last_p wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">WUSOB TECHNOLOGIES is a full custom services firm. In achieving that, it’s our business to quickly adapt to meet our clients’ diverse needs… and we have a proven track record of doing just that.
+                            <br>To support these solutions and extend our expertise, we constantly train resources to thoroughly
+                            understand the solutions and come up with best of breed designs. Through rigorous testing in our laboratories and
+                            software testbeds, we emulate these designs in controlled environments and build stable, ready-to-deploy solutions for
+                            production environments.
+                            </p>
                         </div>
                         <div class="video_watch d-flex align-items-center">
-                            <div class="play_btn wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+                            <!--  <div class="play_btn wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
                                 <a href="https://www.youtube.com/watch?v=D7tF-cY2M9o" class="video_icon popup-video"> <i class="fa fa-play"></i> </a>
                             </div>
-                           <span class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s"> Watch Video</span>
+                            <span class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s"> Watch Video</span> -->
                         </div>
                     </div>
                 </div>
@@ -198,92 +203,15 @@
                 <div class="col-lg-6">
                     <div class="section_title text-center mb-90">
                         <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Our Creative Team</h3>
-                        <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">Tour function information without cross action media value quickly maximize timely deliverables.</p>
+                        <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">Consists of talented Engineers who share a love for programming</p>
+                        <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">Would you like to meet the team?</p>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="single_team wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
-                        <div class="team_thumb">
-                            <img src="https://res.cloudinary.com/dnjoewu0k/image/upload/v1600468201/wusob/Homepage/team/1ee110db-f8f2-43ea-82ee-aa29f5d0828d-removebg-preview_jcndqa.png" alt="" class="wusa">
-                            <div class="team_hover">
-                                <div class="hover_inner text-center">
-                                    <ul>
-                                        <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
-                                        <li><a href="#"> <i class="fa fa-linkedin"></i> </a></li>
-                                        <li><a href="#"> <i class="fa fa-google-plus"></i> </a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team_title text-center">
-                            <h3>WUSA, I. Tadagbe</h3>
-                            <p>Founder & C.E.O</p>
-                        </div>
-                    </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <a href="{{route('aboutUs')}}" class="boxed-btn wow fadeIn" data-wow-duration="1s" data-wow-delay=".7s">Meet the Team</a> 
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single_team wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-                        <div class="team_thumb">
-                            <img src="https://res.cloudinary.com/dnjoewu0k/image/upload/v1600903287/wusob/Homepage/team/WhatsApp_Image_2020-09-23_at_10.26.54_PM-removebg-preview_n9nm2k.png" alt="">
-                            <div class="team_hover">
-                                <div class="hover_inner text-center">
-                                    <ul>
-                                        <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
-                                        <li><a href="#"> <i class="fa fa-twitter"></i> </a></li>
-                                        <li><a href="#"> <i class="fa fa-instagram"></i> </a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team_title text-center">
-                            <h3>Confidence Ugolo</h3>
-                            <p>Chief Technical Officer (CTO)</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single_team wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
-                        <div class="team_thumb">
-                            <img src="https://res.cloudinary.com/dnjoewu0k/image/upload/v1600465942/wusob/Homepage/team/IMG_0094-removebg-preview_cv6rgn.png" alt="">
-                            <div class="team_hover">
-                                <div class="hover_inner text-center">
-                                    <ul>
-                                        <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
-                                        <li><a href="#"> <i class="fa fa-linkedin"></i> </a></li>
-                                        <li><a href="#"> <i class="fa fa-google-plus"></i> </a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team_title text-center">
-                            <h3>Paul Emas</h3>
-                            <p>Frontend Engineer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="single_team wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
-                        <div class="team_thumb">
-                            <img src="https://res.cloudinary.com/dnjoewu0k/image/upload/v1600903689/wusob/Homepage/team/WhatsApp_Image_2020-09-20_at_8.54.47_PM-removebg-preview_psnyly.png" alt="">
-                            <div class="team_hover">
-                                <div class="hover_inner text-center">
-                                    <ul>
-                                        <li><a href="#"> <i class="fa fa-facebook"></i> </a></li>
-                                        <li><a href="#"> <i class="fa fa-linkedin"></i> </a></li>
-                                        <li><a href="#"> <i class="fa fa-google-plus"></i> </a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team_title text-center">
-                            <h3>Muyiwa Yombo</h3>
-                            <p>Chief Financial Officer (C.F.O)</p>
-                        </div>
-                    </div>
-                </div>
-                <a href="#" class="boxed-btn wow fadeIn" data-wow-duration="1s" data-wow-delay=".7s">View The Team </a>
             </div>
         </div>
     </div>
@@ -300,15 +228,22 @@
                                         <div class="quote">
                                             <img src="{{ $web_source }}/img/testmonial/quote.svg" alt="">
                                         </div>
-                                        <p>Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor <br>
-                                                sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque.  <br>
-                                                Fusce ac mattis nulla. Morbi eget ornare dui. </p>
+                                        <p>“Everybody should learn to program a computer,<br>
+                                            because it teaches you how to think.” </p>
                                         <div class="testmonial_author">
-                                            <div class="thumb">
-                                                    <img src="{{ $web_source }}/img/testmonial/thumb.png" alt="">
-                                            </div>
-                                            <h3>Robert Thomson</h3>
-                                            <span>Business Owner</span>
+                                            <h3>Steve Jobs</h3>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="single_carousel">
+                                <div class="single_testmonial text-center">
+                                        <div class="quote">
+                                            <img src="{{ $web_source }}/img/testmonial/quote.svg" alt="">
+                                        </div>
+                                        <p> “Learning to write programs stretches your mind, and helps you think better,<br>
+                                            creates a way of thinking about things that I think is helpful in all domains.” </p>
+                                        <div class="testmonial_author">
+                                            <h3>Bill Gates</h3>
                                         </div>
                                     </div>
                         </div>
@@ -317,32 +252,9 @@
                                         <div class="quote">
                                             <img src="{{ $web_source }}/img/testmonial/quote.svg" alt="">
                                         </div>
-                                        <p>Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor <br>
-                                                sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque.  <br>
-                                                Fusce ac mattis nulla. Morbi eget ornare dui. </p>
+                                        <p>Every problem has a creative solution.</p>
                                         <div class="testmonial_author">
-                                            <div class="thumb">
-                                                    <img src="{{ $web_source }}/img/testmonial/thumb.png" alt="">
-                                            </div>
-                                            <h3>Robert Thomson</h3>
-                                            <span>Business Owner</span>
-                                        </div>
-                                    </div>
-                        </div>
-                        <div class="single_carousel">
-                                <div class="single_testmonial text-center">
-                                        <div class="quote">
-                                            <img src="{{ $web_source }}/img/testmonial/quote.svg" alt="">
-                                        </div>
-                                        <p>Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor <br>
-                                                sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque.  <br>
-                                                Fusce ac mattis nulla. Morbi eget ornare dui. </p>
-                                        <div class="testmonial_author">
-                                            <div class="thumb">
-                                                    <img src="{{ $web_source }}/img/testmonial/thumb.png" alt="">
-                                            </div>
-                                            <h3>Robert Thomson</h3>
-                                            <span>Business Owner</span>
+                                            <h3>Donna Karan</h3>    
                                         </div>
                                     </div>
                         </div>
@@ -359,12 +271,15 @@
                 <div class="col-lg-6">
                     <div class="section_title text-center mb-90">
                         <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Get in Touch</h3>
-                        <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Tour function information without cross action media value quickly maximize timely deliverables.</p>
+                        <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">Whether you have a question about services, trials, pricing, need a demo, or anything else, our team is ready to answer all your questions. We will be glad to provide your software solutions at your convinience and affordable price. Just contact us and we'll revert. Thanks! </p>
                     </div>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-8">
+                    <a href="{{route('contactUs')}}" class="boxed-btn wow fadeIn" data-wow-duration="1s" data-wow-delay=".7s">Contact Us</a> 
+                </div>
+                <!--    <div class="col-lg-8">
                     <div class="touch_form">
                         <form action="#">
                             <div class="row">
@@ -397,6 +312,7 @@
                         </form>
                     </div>
                 </div>
+                -->
             </div>
         </div>
     </div>

@@ -10,11 +10,11 @@ use Illuminate\Queue\SerializesModels;
 class ContactFormMail extends Mailable
 {
     use Queueable, SerializesModels;
-    public $letter;
+    public $data;
 
-    public function __construct($letter_data)
+    public function __construct($data)
     {
-        $this->letter = $letter_data;
+        $this->data = $data;
     }
 
     /**
@@ -24,6 +24,6 @@ class ContactFormMail extends Mailable
      */
     public function build()
     {
-        return $this->view('emails.contactform')->subject($this->letter['subject']);
+        return $this->view('emails.contactform')->subject($this->data['subject']);
     }
 }

@@ -183,7 +183,7 @@
 </tbody>
 </table>
 <div align="center" class="img-container center fixedwidth" style="padding-right: 0px;padding-left: 0px;">
-<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr style="line-height:0px"><td style="padding-right: 0px;padding-left: 0px;" align="center"><![endif]--><img align="center" alt="WUSOB TECHNOLOGIES" border="0" class="center fixedwidth" src="https://wusobtech.com/public/web/images/wusob_logo.png" style="text-decoration: none; -ms-interpolation-mode: bicubic; height: auto; border: 0; width: 100%; max-width: 140px; display: block;" title="Alternate text" width="140"/>
+<!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr style="line-height:0px"><td style="padding-right: 0px;padding-left: 0px;" align="center"><![endif]--><img align="center" alt="WUSOB TECHNOLOGIES" border="0" class="center fixedwidth" src="https://res.cloudinary.com/wusobtech-com/image/upload/v1601295194/wusob_bod/wusob_logo_f4jxgv.png" style="text-decoration: none; -ms-interpolation-mode: bicubic; height: auto; border: 0; width: 100%; max-width: 140px; display: block;" title="Alternate text" width="140"/>
 <!--[if mso]></td></tr></table><![endif]-->
 </div>
 <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 55px; padding-left: 50px; padding-top: 30px; padding-bottom: 10px; font-family: Tahoma, sans-serif"><![endif]-->
@@ -235,7 +235,7 @@
 <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; font-family: Tahoma, sans-serif"><![endif]-->
 <div style="color:#555555;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;">
 <div style="font-size: undefined; line-height: 1.2; color: #555555; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; mso-line-height-alt: NaNpx;">
-<p style="font-size: 14px; line-height: 1.2; mso-line-height-alt: 17px; margin: 0;">{{ $letter['name'] }}</p>
+<p style="font-size: 14px; line-height: 1.2; mso-line-height-alt: 17px; margin: 0;">{{ $data['name'] }}</p>
 </div>
 </div>
 <!--[if mso]></td></tr></table><![endif]-->
@@ -281,7 +281,7 @@
 <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; font-family: Tahoma, sans-serif"><![endif]-->
 <div style="color:#555555;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;">
 <div style="font-size: undefined; line-height: 1.2; color: #555555; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; mso-line-height-alt: NaNpx;">
-<p style="font-size: 14px; line-height: 1.2; mso-line-height-alt: 17px; margin: 0;">{{ $letter['phone'] }}</p>
+<p style="font-size: 14px; line-height: 1.2; mso-line-height-alt: 17px; margin: 0;">{{ $data['phone'] }}</p>
 </div>
 </div>
 <!--[if mso]></td></tr></table><![endif]-->
@@ -335,7 +335,7 @@
 <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; font-family: Tahoma, sans-serif"><![endif]-->
 <div style="color:#555555;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;">
 <div style="font-size: undefined; line-height: 1.2; color: #555555; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; mso-line-height-alt: NaNpx;">
-<p style="font-size: 14px; line-height: 1.2; mso-line-height-alt: 17px; margin: 0;">{{ $letter['subject']}}</p>
+<p style="font-size: 14px; line-height: 1.2; mso-line-height-alt: 17px; margin: 0;">{{ $data['subject']}}</p>
 </div>
 </div>
 <!--[if mso]></td></tr></table><![endif]-->
@@ -402,7 +402,7 @@
 <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; font-family: Tahoma, sans-serif"><![endif]-->
 <div style="color:#555555;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;">
 <div style="font-size: undefined; line-height: 1.2; color: #555555; font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif; mso-line-height-alt: NaNpx;">
-<p style="font-size: 14px; line-height: 1.2; mso-line-height-alt: 17px; margin: 0;"> {{ $letter['bodyMessage']}} </p>
+<p style="font-size: 14px; line-height: 1.2; mso-line-height-alt: 17px; margin: 0;"> {{ $data['message']}} </p>
 </div>
 </div>
 <!--[if mso]></td></tr></table><![endif]-->

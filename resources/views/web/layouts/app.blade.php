@@ -7,7 +7,7 @@
     <title>@yield('title')  - WusobTech</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ $web_source }}/img/wusob_logo.png">
     <!-- <link rel="manifest" href="site.webmanifest"> -->
     <!-- Place favicon.ico in the root directory -->
 @include('web.includes.style')

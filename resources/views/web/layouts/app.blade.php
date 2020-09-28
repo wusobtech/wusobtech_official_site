@@ -6,6 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>@yield('title')  - WusobTech</title>
     <meta name="description" content="">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ $web_source }}/img/wusob_logo.png">
     <!-- <link rel="manifest" href="site.webmanifest"> -->
@@ -13,6 +14,7 @@
 @include('web.includes.style')
 </head>
 <body>
+    @include('sweet::alert')
     <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->

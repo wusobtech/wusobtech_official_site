@@ -17,7 +17,7 @@ Route::get('/', 'WebController@index')->name('homepage');
 Route::get('/about-us', 'WebController@aboutUs')->name('aboutUs');
 Route::get('/contact-us', 'WebController@contactUs')->name('contactUs');
 Route::get('/our-portfolio', 'WebController@portfolio')->name('portfolio');
-Route::match(['post', 'get'],'/send', 'WebController@sendContact');
+Route::post('/send', 'WebController@submitContact')->name('submitContact');
 Route::get('/services', 'WebController@services')->name('services');
 Route::get('/our-blog', 'WebController@blogsView')->name('our_blog');
 Route::match(['post', 'get'],'/subscribe', 'WebController@subscribe')->name('subscribe');

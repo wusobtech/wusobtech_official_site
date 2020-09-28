@@ -65,7 +65,7 @@
               </div>
               <div class="col-sm-6">
                 <div class="form-group">
-                  <input class="form-control" name="phone" id="phone" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter phone number'" placeholder = 'Enter email address'>
+                  <input class="form-control" name="phone" id="phone" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter phone number'" placeholder = 'Enter phone number'>
                 </div>
               </div>
               <div class="col-12">
@@ -83,22 +83,23 @@
           <div class="media contact-info">
             <span class="contact-info__icon"><i class="ti-home"></i></span>
             <div class="media-body">
-              <h3>Buttonwood, California.</h3>
-              <p>Rosemead, CA 91770</p>
+              <h3>Suite 4, Jabita Complex Owode bus-stop </h3>
+              <p>Lekki Ajah, Lagos 101245</p>
             </div>
           </div>
           <div class="media contact-info">
             <span class="contact-info__icon"><i class="ti-tablet"></i></span>
             <div class="media-body">
-              <h3>00 (440) 9865 562</h3>
-              <p>Mon to Fri 9am to 6pm</p>
+              <h3>+(234) 816 695 0524 </h3>
+              <h3>+(234) 810 703 1203</h3>
+              <p>Mon to Fri 9am to 5pm</p>
             </div>
           </div>
           <div class="media contact-info">
             <span class="contact-info__icon"><i class="ti-email"></i></span>
             <div class="media-body">
-              <h3>support@colorlib.com</h3>
-              <p>Send us your query anytime!</p>
+              <a href="mailto:contact@wusobtech.com"><h3>contact@wusobtech.com</h3></a>
+              <p>Send us your request anytime!</p>
             </div>
           </div>
         </div>

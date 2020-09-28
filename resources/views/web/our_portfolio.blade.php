@@ -19,13 +19,13 @@
                 <div class="col-lg-8 col-md-12">
                     <div class="single_Portfolio wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
                         <div class="portfolio_thumb">
-                            <img src="{{  $web_source}}/img/portfolio/1.png" alt="">
+                            <img src="{{ $web_source }}/img/portfolio/7.png" alt="">
                         </div>
                         <div class="portfolio_hover">
                             <div class="title">
-                                <span>App Design</span>
-                                    <h3>Colorlib Mobile App</h3>
-                                    <a class="boxed-btn3" href="#">View</a>
+                                <span>Mobile App Design</span>
+                                    <h3>Frenzo</h3>
+                                <!--    <a class="boxed-btn3" href="portfolio_details.html">View</a> -->
                             </div>
                         </div>
                     </div>
@@ -33,13 +33,13 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single_Portfolio wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
                         <div class="portfolio_thumb">
-                            <img src="{{  $web_source}}/img/portfolio/2.png" alt="">
+                            <img src="{{ $web_source }}/img/portfolio/2.png" alt="">
                         </div>
                         <div class="portfolio_hover">
                             <div class="title">
-                                <span>App Design</span>
-                                    <h3>Colorlib Mobile App</h3>
-                                    <a class="boxed-btn3" href="#">View</a>
+                                <span>Website Design</span>
+                                    <h3>Africa United Forum</h3>
+                                <!--    <a class="boxed-btn3" href="portfolio_details.html">View</a> -->
                             </div>
                         </div>
                     </div>
@@ -47,13 +47,13 @@
                 <div class="col-lg-4 col-md-6 col-lg-4">
                     <div class="single_Portfolio wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                         <div class="portfolio_thumb">
-                            <img src="{{  $web_source}}/img/portfolio/3.png" alt="">
+                            <img src="{{ $web_source }}/img/portfolio/1.png" alt="">
                         </div>
                         <div class="portfolio_hover">
                             <div class="title">
-                                <span>App Design</span>
-                                    <h3>Colorlib Mobile App</h3>
-                                    <a class="boxed-btn3" href="#">View</a>
+                                <span>Mobile App Design</span>
+                                    <h3>Biometric Scanner and Register</h3>
+                                <!--    <a class="boxed-btn3" href="portfolio_details.html">View</a> -->
                             </div>
                         </div>
                     </div>
@@ -61,13 +61,13 @@
                 <div class="col-lg-4 col-md-6 col-lg-4">
                     <div class="single_Portfolio wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
                         <div class="portfolio_thumb">
-                            <img src="{{  $web_source}}/img/portfolio/4.png" alt="">
+                            <img src="{{ $web_source }}/img/portfolio/4.png" alt="">
                         </div>
                         <div class="portfolio_hover">
                             <div class="title">
-                                <span>App Design</span>
-                                    <h3>Colorlib Mobile App</h3>
-                                    <a class="boxed-btn3" href="#">View</a>
+                                <span>Ecommerce Website Design</span>
+                                    <h3>Greener Norah</h3>
+                                <!--    <a class="boxed-btn3" href="portfolio_details.html">View</a> -->
                             </div>
                         </div>
                     </div>
@@ -75,13 +75,13 @@
                 <div class="col-lg-4 col-md-6 col-lg-4">
                     <div class="single_Portfolio wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">
                         <div class="portfolio_thumb">
-                            <img src="{{  $web_source}}/img/portfolio/5.png" alt="">
+                            <img src="{{ $web_source }}/img/portfolio/6.png" alt="">
                         </div>
                         <div class="portfolio_hover">
                             <div class="title">
-                                <span>App Design</span>
-                                    <h3>Colorlib Mobile App</h3>
-                                    <a class="boxed-btn3" href="#">View</a>
+                                <span>Software Design</span>
+                                    <h3>Financial Software Solution</h3>
+                                <!--    <a class="boxed-btn3" href="#">View</a> -->
                             </div>
                         </div>
                     </div>

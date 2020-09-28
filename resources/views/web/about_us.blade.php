@@ -220,7 +220,7 @@ who work with us as their preferred IT Consultants”</p>
                         </div>
                         <div class="team_title text-center">
                             <h3>Ikokoh Daniel</h3>
-                            <p>COntent Manager Director</p>
+                            <p>Content Manager Director</p>
                         </div>
                     </div>
                 </div>

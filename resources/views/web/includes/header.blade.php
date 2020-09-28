@@ -1,52 +1,56 @@
-<!-- header -->
-        <header class="py-1">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <h1>
-                        <a href="{{ url('/') }}" class="navbar-brand"><img height="40px" width="40px" src="{{ $web_source }}/images/wusob_logo.png" /></a>
-                    </h1>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-4 m-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="{{ url('/') }}">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('aboutUs') }}">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('services') }}">Services</a>
-                            </li>
-                            @guest
-                            @else
-                            <li class="nav-link">
-                                <a href="{{ url('/admin/dashboard') }}">Dashboard</a>
-                            </li>
-                            @endguest
-                            {{--  <li class="nav-item">
-                                <a class="nav-link" href="#">Tech-Job Connect</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Tech Training</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Advertisements</a>
-                            </li>  --}}
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('our_blog') }}">Blog</a>
-                            </li>
-                            {{--  <li class="nav-item">
-                                <a class="nav-link" href="#">Our Archives</a>
-                            </li>  --}}
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('contactUs') }}">Contact</a>
-                            </li>
-                        </ul>
+    <!-- header-start -->
+    <header>
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container-fluid">
+                    <div class="row align-items-center no-gutters logo-box">
+                        <div class="col-xl-2 col-lg-2">
+                            <div class="logo-img">
+                                <a href="{{ route('homepage') }}">
+                                    <img src="https://res.cloudinary.com/dnjoewu0k/image/upload/v1600457896/wusob/Homepage/Capture2-removebg-preview_az6sei.png" alt="" class="dn-sm">
+                                    <img src="{{ $logo_img }}" alt="" srcset="{{ $logo_img }}" class="dn-lg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-8 col-lg-8">
+                            <div class="main-menu  d-none d-lg-block text-center">
+                                <nav>
+                                    <ul id="navigation">
+                                        <li><a class="active" href="{{ route('homepage') }}">home</a></li>
+                                        <li><a href="{{ route('services') }}">Services</a></li>
+                                        <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
+                                        <li><a href="{{ route('aboutUs') }}">About</a></li>
+                                        <!-- <li><a href="#">pages <i class="ti-angle-down"></i></a>
+                                            <ul class="submenu">
+                                                <li><a href="portfolio_details.html">Portfolio details</a></li>
+
+                                                <li><a href="elements.html">elements</a></li>
+                                            </ul>
+                                        </li> -->
+
+                                        <!-- <li><a href="#">blog <i class="ti-angle-down"></i></a>
+                                            <ul class="submenu">
+                                                <li><a href="blog.html">blog</a></li>
+                                                <li><a href="single-blog.html">single-blog</a></li>
+                                            </ul>
+                                        </li> -->
+                                        <li><a href="{{ route('contactUs') }}">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        {{-- <div class="col-lg-2 d-none d-lg-block">
+                            <div class="log_chat_area d-flex align-items-end">
+                                <a href="#" data-scroll-nav="0" class="say_hi">Say Hello</a>
+                            </div>
+                        </div> --}}
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
                     </div>
-                </nav>
+                </div>
             </div>
-        </header>
-        <!-- //header -->
+        </div>
+    </header>
+    <!-- header-end -->

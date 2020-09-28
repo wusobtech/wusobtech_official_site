@@ -14,16 +14,22 @@ use Illuminate\Support\Facades\Mail;
 class WebController extends Controller
 {
     public function index(){
-        return view('web.welcome');
+        return view('web.index');
     }
 
     public function aboutUs(){
-        return view('web.aboutus');
+        return view('web.about_us');
     }
 
     public function contactUs(){
-        return view('web.contactus');
+        return view('web.contact_us');
     }
+
+    public function portfolio(){
+        return view('web.our_portfolio');
+    }
+
+
 
     public function sendContact(Request $request){
         if($request->isMethod('post')){
@@ -33,7 +39,7 @@ class WebController extends Controller
                 'email'  =>  'required|email',
                 'phone'  =>  'required',
                 'subject'  =>  'required',
-                'bodyMessage' =>  'required'
+                'message' =>  'required'
             ]);
 
             $data = array(
@@ -41,7 +47,7 @@ class WebController extends Controller
                 "email"   =>   $request->email,
                 "phone"   =>   $request->phone,
                 "subject"   =>   $request->subject,
-                "bodyMessage"   =>   $request->bodyMessage
+                "bodyMessage"   =>   $request->message
             );
 
             $email = 'contact@wusobtech.com';

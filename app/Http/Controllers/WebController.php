@@ -79,7 +79,7 @@ class WebController extends Controller
 
             // Send An Email
         Mail::to($email)->send(new ContactFormMail($data));
-        toastr()->success('Mail Sent Successfully!.');
+        alert()->success('Your Mail has been sent Succesfully!', 'We will Get back to you shortly!');
         return redirect()->back();
 
     }

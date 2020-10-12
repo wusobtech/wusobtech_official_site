@@ -59,7 +59,7 @@
                             <img src="{{ $web_source }}/img/svg_icon/3.svg" alt="">
                         </div>
                         <h3>Mobile App</h3>
-                        <p>Apple iOS, Android, Mobile Applications and Software that are build to scale and perform better on low specification devices.</p>
+                        <p>Apple iOS, Android, Mobile Applications and Software that are built to scale and perform better on low specification devices.</p>
                     </div>
                 </div>
             </div>

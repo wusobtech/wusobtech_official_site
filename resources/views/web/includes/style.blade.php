@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="{{ $web_source }}/css/owl.carousel.min.css">
     <link rel="stylesheet" href="{{ $web_source }}/css/magnific-popup.css">
     <link rel="stylesheet" href="{{ $web_source }}/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ $web_source }}/css/themify-icons.css">
     <link rel="stylesheet" href="{{ $web_source }}/css/nice-select.css">
     <link rel="stylesheet" href="{{ $web_source }}/css/flaticon.css">
@@ -12,5 +13,6 @@
     <link rel="stylesheet" href="{{ $web_source }}/css/slick.css">
     <link rel="stylesheet" href="{{ $web_source }}/css/slicknav.css">
     <link rel="stylesheet" href="{{ $web_source }}/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- <link rel="stylesheet" href="{{ $web_source }}/css/responsive.css"> -->
 </head>

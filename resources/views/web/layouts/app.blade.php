@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>@yield('title')  - WusobTech</title>
-    <meta name="description" content="">
+    <meta name="description" content="Toward IT solutions, wusob technologies is a full customs services firm. In achieving that, it is our business to adapt quickly to meet our clients diverse needs and demands.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ $web_source }}/img/wusob_logo.png">
     <!-- <link rel="manifest" href="site.webmanifest"> -->

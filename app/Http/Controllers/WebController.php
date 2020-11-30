@@ -31,33 +31,57 @@ class WebController extends Controller
 
 
 
-    public function sendContact(Request $request){
-        if($request->isMethod('post')){
-            $data = $request->all();
-            $this->validate($request, [
-                'name'     =>  'required',
-                'email'  =>  'required|email',
-                'phone'  =>  'required',
-                'subject'  =>  'required',
-                'message' =>  'required'
-            ]);
+    // public function sendContact(Request $request){
+    //     if($request->isMethod('post')){
+    //         $data = $request->all();
+    //         $this->validate($request, [
+    //             'name'     =>  'required',
+    //             'email'  =>  'required|email',
+    //             'phone'  =>  'required',
+    //             'subject'  =>  'required',
+    //             'message' =>  'required'
+    //         ]);
 
-            $data = array(
-                "name"      =>  $request->name,
-                "email"   =>   $request->email,
-                "phone"   =>   $request->phone,
-                "subject"   =>   $request->subject,
-                "bodyMessage"   =>   $request->message
-            );
+    //         $data = array(
+    //             "name"      =>  $request->name,
+    //             "email"   =>   $request->email,
+    //             "phone"   =>   $request->phone,
+    //             "subject"   =>   $request->subject,
+    //             "message"   =>   $request->message
+    //         );
 
-            $email = 'contact@wusobtech.com';
+    //         dd($data);
+
+    //         $email = 'contact@wusobtech.com';
+
+    //         // Send An Email
+    //         Mail::to($email)->send(new ContactFormMail($data));
+
+    //         toastr()->success('Mail Sent Successfully!.');
+    //         return redirect()->back();
+    //     }
+    // }
+
+    public function submitContact(){
+        //dd(request()->all());
+        $data = request()->validate([
+            'name' => 'required',
+            'email' => 'required',
+            'phone' => 'required',
+            'subject' => 'required',
+            'message' => 'required',
+        ]);
+
+        // dd($data);
+
+
+        $email = 'contact@wusobtech.com';
 
             // Send An Email
-            Mail::to($email)->send(new ContactFormMail($data));
+        Mail::to($email)->send(new ContactFormMail($data));
+        alert()->success('Your Mail has been sent Succesfully!', 'We will Get back to you shortly!');
+        return redirect()->back();
 
-            toastr()->success('Mail Sent Successfully!.');
-            return redirect()->back();
-        }
     }
 
     public function services(){

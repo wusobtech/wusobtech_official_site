@@ -23,8 +23,7 @@
                         </div>
                         <div class="portfolio_hover">
                             <div class="title">
-                                <span>Mobile App Design</span>
-                                    <h3>Frenzo</h3>
+                                    <h3>RefTopHomes</h3>
                                 <!--    <a class="boxed-btn3" href="portfolio_details.html">View</a> -->
                             </div>
                         </div>
